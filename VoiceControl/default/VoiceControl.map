@@ -1,0 +1,1164 @@
+Archive member included because of file (symbol)
+
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(CBOT_main.o)
+                              e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm324p.o (main)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_clear.o)
+                              VoiceControl.o (LCD_clear)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_open.o)
+                              VoiceControl.o (LCD_open)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_set_backlight.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_open.o) (LCD_set_backlight)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_set_next_PGC.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_clear.o) (LCD_set_next_PGC)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_set_PGC_addr.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_clear.o) (LCD_set_PGC_addr)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_write.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_clear.o) (LCD_write)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPI_set_slave_addr.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_set_backlight.o) (SPI_set_slave_addr)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPI_transmit.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_set_backlight.o) (SPI_transmit)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SYS_get_state.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_open.o) (SYS_get_state)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SYS_globals.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SYS_get_state.o) (CBOT_system)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SYS_set_state.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_open.o) (SYS_set_state)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(CBOT_init.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(CBOT_main.o) (CBOT_init)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(CBOT_isr.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(CBOT_main.o) (CBOT_ISR_init)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ISR_globals.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(CBOT_isr.o) (CBOT_ISR_vtable)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ISR_open.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(CBOT_init.o) (ISR_open)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_globals.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_open.o) (LCD_stdout)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__LCD_init.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_open.o) (__LCD_init)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__LCD_putchar.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_globals.o) (__LCD_putchar)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ATMEGA_open.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(CBOT_init.o) (ATMEGA_open)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ATMEGA_set_clk_mode.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ATMEGA_open.o) (ATMEGA_set_clk_mode)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPI_globals.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPI_set_slave_addr.o) (spi_config_func_LUT)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPI_open.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(CBOT_init.o) (SPI_open)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPI_set_config_func.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPI_open.o) (SPI_set_config_func)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_close.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__LCD_putchar.o) (SPKR_close)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_globals.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_close.o) (tone_mode_active)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_open.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__LCD_putchar.o) (SPKR_open)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_play_beep.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__LCD_putchar.o) (SPKR_play_beep)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__SPKR_stop.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_close.o) (__SPKR_stop)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SYS_init.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(CBOT_init.o) (SYS_init)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ATTINY_open.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(CBOT_init.o) (ATTINY_open)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_delay.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_play_beep.o) (TMRSRVC_delay)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_new.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_delay.o) (TMRSRVC_new)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_open.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(CBOT_init.o) (TMRSRVC_open)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__TMRSRVC_start.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_open.o) (__TMRSRVC_start)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__ISR_attach.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_open.o) (__ISR_attach)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ISR_attach.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_open.o) (ISR_attach)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__ATMEGA_init.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ATMEGA_open.o) (__ATMEGA_init)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPI_cfgrs.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPI_open.o) (SPI_default_config)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__SPI_init.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPI_open.o) (__SPI_init)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ISR__SPKR__TIMER1_COMPA_vect.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_open.o) (__SPKR_TIMER1_COMPA_vect)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_beep.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_play_beep.o) (SPKR_beep)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_clk.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ISR__SPKR__TIMER1_COMPA_vect.o) (SPKR_clk)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__SPKR_close.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_close.o) (__SPKR_close)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__SPKR_init.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_open.o) (__SPKR_init)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ATTINY_globals.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ATTINY_open.o) (ATTINY_params)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ISR__TIMER0_COMPA_vect.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_open.o) (__TIMER0_COMPA_vect)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_globals.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_new.o) (timer_busy_status)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__TMRSRVC_init.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_open.o) (__TMRSRVC_init)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__TMRSRVC_insert.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_new.o) (TMRSRVC_insert)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_start.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__TMRSRVC_insert.o) (TMRSRVC_start)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_tick.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ISR__TIMER0_COMPA_vect.o) (TMRSRVC_tick)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_beep_clk.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ISR__TIMER0_COMPA_vect.o) (SPKR_beep_clk)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_clk.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ISR__TIMER0_COMPA_vect.o) (STEPPER_clk)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_globals.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_clk.o) (STEPPER_params)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_process_accel.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_clk.o) (STEPPER_process_accel)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_process_run_mode.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_clk.o) (STEPPER_process_run_mode)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_process_step_mode.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_process_run_mode.o) (STEPPER_process_step_mode)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_set_speed.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_process_step_mode.o) (STEPPER_set_speed)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_stop.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_process_run_mode.o) (STEPPER_stop)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_process.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_tick.o) (TMRSRVC_process)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_stop.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_process.o) (TMRSRVC_stop)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_process_pwm.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_process_run_mode.o) (STEPPER_process_pwm)
+C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_set_steps.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_stop.o) (STEPPER_set_steps)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_open.o) (__mulsi3)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_play_beep.o) (__udivmodsi4)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                              e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm324p.o (exit)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                              VoiceControl.o (__do_copy_data)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(CBOT_main.o) (__do_clear_bss)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_open.o) (__mulsf3)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_open.o) (__divsf3)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+                              e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o) (__thenan_sf)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_open.o) (__floatunsisf)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                              e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o) (__prologue_saves__)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                              e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o) (__epilogue_restores__)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+                              e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o) (__clzsi2)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+                              e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o) (__pack_f)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+                              e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o) (__unpack_f)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+                              e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o) (__clz_tab)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_open.o) (malloc)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(iob.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_open.o) (__iob)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(puts.o)
+                              VoiceControl.o (puts)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(lrint.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_open.o) (lrint)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(pow.o)
+                              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_open.o) (pow)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(exp.o)
+                              e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(pow.o) (exp)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_inf.o)
+                              e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(exp.o) (__fp_inf)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_nan.o)
+                              e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(pow.o) (__fp_nan)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_powser.o)
+                              e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(exp.o) (__fp_powser)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_split3.o)
+                              e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(lrint.o) (__fp_splitA)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_zero.o)
+                              e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(lrint.o) (__fp_zero)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(inverse.o)
+                              e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(exp.o) (inverse)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ldexp.o)
+                              e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(exp.o) (ldexp)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(log.o)
+                              e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(pow.o) (log)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(modf.o)
+                              e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(exp.o) (modf)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(mulsf3x.o)
+                              e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_powser.o) (__mulsf3x)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(addsf3.o)
+                              e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(modf.o) (__subsf3)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(addsf3x.o)
+                              e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_powser.o) (__addsf3x)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(floatsisf.o)
+                              e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(log.o) (__floatsisf)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_mpack.o)
+                              e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ldexp.o) (__fp_mpack)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_pscA.o)
+                              e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(mulsf3x.o) (__fp_pscA)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_pscB.o)
+                              e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(mulsf3x.o) (__fp_pscB)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_round.o)
+                              e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(log.o) (__fp_round)
+
+Allocating common symbols
+Common symbol       size              file
+
+__brkval            0x2               e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+ATTINY_params       0x1e              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ATTINY_globals.o)
+CBOT_system         0x13              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SYS_globals.o)
+tmrNodes            0x3               C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_globals.o)
+STEPPER_params      0x37              C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_globals.o)
+curr_spi_addr       0x1               C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPI_globals.o)
+LCD_params          0x5               C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_globals.o)
+__flp               0x2               e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+__iob               0x6               e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(iob.o)
+step_done           0x2               C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_globals.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm324p.o
+LOAD VoiceControl.o
+LOAD e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a
+LOAD C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a
+LOAD e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+LOAD e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a
+LOAD e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x30de
+ *(.vectors)
+ .vectors       0x00000000       0x7c e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm324p.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table
+                0x0000007c       0x26 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SYS_get_state.o)
+ .progmem.gcc_sw_table
+                0x000000a2       0x26 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SYS_set_state.o)
+ .progmem.gcc_fplib
+                0x000000c8       0x28 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(exp.o)
+ .progmem.gcc_fplib
+                0x000000f0       0x5a e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(log.o)
+ *(.progmem*)
+ .progmem.data  0x0000014a      0x415 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_globals.o)
+                0x0000014a                char_bitmap
+                0x0000035f                CEENBoT_Inc_logo_bitmap
+                0x00000560                . = ALIGN (0x2)
+ *fill*         0x0000055f        0x1 00
+                0x00000560                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000560        0x0 linker stubs
+ *(.trampolines*)
+                0x00000560                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000560                __ctors_start = .
+ *(.ctors)
+                0x00000560                __ctors_end = .
+                0x00000560                __dtors_start = .
+ *(.dtors)
+                0x00000560                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000560        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm324p.o
+                0x00000560                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000560        0xc e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm324p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000056c       0x16 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                0x0000056c                __do_copy_data
+ .init4         0x00000582       0x10 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                0x00000582                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000592        0x8 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm324p.o
+ *(.init9)
+ *(.text)
+ .text          0x0000059a        0x4 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm324p.o
+                0x0000059a                __vector_22
+                0x0000059a                __vector_28
+                0x0000059a                __vector_1
+                0x0000059a                __vector_24
+                0x0000059a                __bad_interrupt
+                0x0000059a                __vector_3
+                0x0000059a                __vector_23
+                0x0000059a                __vector_30
+                0x0000059a                __vector_25
+                0x0000059a                __vector_19
+                0x0000059a                __vector_27
+                0x0000059a                __vector_2
+                0x0000059a                __vector_21
+                0x0000059a                __vector_29
+                0x0000059a                __vector_8
+                0x0000059a                __vector_26
+                0x0000059a                __vector_20
+ .text          0x0000059e       0x12 VoiceControl.o
+                0x0000059e                CBOT_main
+ .text          0x000005b0       0x12 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(CBOT_main.o)
+                0x000005b0                main
+ .text          0x000005c2       0x3a C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_clear.o)
+                0x000005c2                LCD_clear
+ .text          0x000005fc      0x102 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_open.o)
+                0x000005fc                LCD_open
+ .text          0x000006fe       0x42 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_set_backlight.o)
+                0x000006fe                LCD_set_backlight
+ .text          0x00000740        0xe C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_set_next_PGC.o)
+                0x00000740                LCD_set_next_PGC
+ .text          0x0000074e       0x32 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_set_PGC_addr.o)
+                0x0000074e                LCD_set_PGC_addr
+ .text          0x00000780       0x36 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_write.o)
+                0x00000780                LCD_write
+ .text          0x000007b6       0xa2 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPI_set_slave_addr.o)
+                0x000007b6                SPI_set_slave_addr
+ .text          0x00000858       0x1e C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPI_transmit.o)
+                0x00000858                SPI_transmit
+ .text          0x00000876       0x90 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SYS_get_state.o)
+                0x00000876                SYS_get_state
+ .text          0x00000906        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SYS_globals.o)
+ .text          0x00000906       0x8e C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SYS_set_state.o)
+                0x00000906                SYS_set_state
+ .text          0x00000994       0x1c C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(CBOT_init.o)
+                0x00000994                CBOT_init
+ .text          0x000009b0      0x480 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(CBOT_isr.o)
+                0x00000c44                __vector_12
+                0x00000d8c                __vector_6
+                0x00000b4e                __vector_11
+                0x00000ba0                __vector_13
+                0x00000a06                __vector_17
+                0x00000dde                __vector_7
+                0x00000d3a                __vector_5
+                0x00000ce8                __vector_4
+                0x00000aaa                __vector_9
+                0x00000c96                __vector_15
+                0x000009b0                CBOT_ISR_init
+                0x00000bf2                __vector_14
+                0x00000afc                __vector_10
+                0x000009b4                __vector_16
+                0x00000a58                __vector_18
+ .text          0x00000e30        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ISR_globals.o)
+ .text          0x00000e30       0x28 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ISR_open.o)
+                0x00000e30                ISR_open
+ .text          0x00000e58        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_globals.o)
+ .text          0x00000e58        0x4 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__LCD_init.o)
+                0x00000e58                __LCD_init
+ .text          0x00000e5c      0x15a C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__LCD_putchar.o)
+                0x00000e5c                __LCD_putchar
+ .text          0x00000fb6       0x24 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ATMEGA_open.o)
+                0x00000fb6                ATMEGA_open
+ .text          0x00000fda       0xa6 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ATMEGA_set_clk_mode.o)
+                0x00000fda                ATMEGA_set_clk_mode
+ .text          0x00001080        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPI_globals.o)
+ .text          0x00001080       0x72 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPI_open.o)
+                0x00001080                SPI_open
+ .text          0x000010f2       0x12 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPI_set_config_func.o)
+                0x000010f2                SPI_set_config_func
+ .text          0x00001104       0x72 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_close.o)
+                0x00001162                SPKR_close
+                0x00001120                __SPKR_close_tone_mode
+                0x00001104                __SPKR_close_beep_mode
+ .text          0x00001176        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_globals.o)
+ .text          0x00001176      0x13c C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_open.o)
+                0x00001240                __SPKR_open_tone_mode
+                0x00001298                SPKR_open
+                0x00001176                __SPKR_set_up_freq_LUT
+                0x00001214                __SPKR_open_beep_mode
+ .text          0x000012b2       0x9a C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_play_beep.o)
+                0x000012b2                SPKR_play_beep
+ .text          0x0000134c        0xc C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__SPKR_stop.o)
+                0x0000134c                __SPKR_stop
+ .text          0x00001358       0x46 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SYS_init.o)
+                0x00001358                SYS_init
+ .text          0x0000139e       0x9e C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ATTINY_open.o)
+                0x0000139e                ATTINY_open
+ .text          0x0000143c       0x42 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_delay.o)
+                0x0000143c                TMRSRVC_delay
+ .text          0x0000147e       0x7c C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_new.o)
+                0x0000147e                TMRSRVC_new
+ .text          0x000014fa       0x3e C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_open.o)
+                0x000014fa                TMRSRVC_open
+ .text          0x00001538        0xc C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__TMRSRVC_start.o)
+                0x00001538                __TMRSRVC_start
+ .text          0x00001544       0x22 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__ISR_attach.o)
+                0x00001544                __ISR_attach
+ .text          0x00001566       0x28 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ISR_attach.o)
+                0x00001566                ISR_attach
+ .text          0x0000158e        0x6 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__ATMEGA_init.o)
+                0x0000158e                __ATMEGA_init
+ .text          0x00001594       0x52 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPI_cfgrs.o)
+                0x000015a4                SPI_ATtiny0_config
+                0x000015d4                SPI_FLASH_config
+                0x00001594                SPI_default_config
+                0x000015c4                SPI_LCD_config
+                0x000015b4                SPI_PSXC_config
+ .text          0x000015e6        0xe C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__SPI_init.o)
+                0x000015e6                __SPI_init
+ .text          0x000015f4        0x6 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ISR__SPKR__TIMER1_COMPA_vect.o)
+                0x000015f4                __SPKR_TIMER1_COMPA_vect
+ .text          0x000015fa       0x2e C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_beep.o)
+                0x000015fa                SPKR_beep
+ .text          0x00001628       0x82 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_clk.o)
+                0x00001628                SPKR_clk
+ .text          0x000016aa       0x38 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__SPKR_close.o)
+                0x000016aa                __SPKR_close
+ .text          0x000016e2       0x54 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__SPKR_init.o)
+                0x000016e2                __SPKR_init
+ .text          0x00001736        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ATTINY_globals.o)
+ .text          0x00001736        0xe C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ISR__TIMER0_COMPA_vect.o)
+                0x00001736                __TIMER0_COMPA_vect
+ .text          0x00001744        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_globals.o)
+ .text          0x00001744       0x12 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__TMRSRVC_init.o)
+                0x00001744                __TMRSRVC_init
+ .text          0x00001756       0xd2 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__TMRSRVC_insert.o)
+                0x00001756                TMRSRVC_insert
+ .text          0x00001828        0x8 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_start.o)
+                0x00001828                TMRSRVC_start
+ .text          0x00001830       0x32 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_tick.o)
+                0x00001830                TMRSRVC_tick
+ .text          0x00001862       0x4e C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_beep_clk.o)
+                0x00001862                SPKR_beep_clk
+ .text          0x000018b0      0x162 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_clk.o)
+                0x000018b0                STEPPER_clk
+ .text          0x00001a12        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_globals.o)
+ .text          0x00001a12       0x8a C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_process_accel.o)
+                0x00001a12                STEPPER_process_accel
+ .text          0x00001a9c      0x206 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_process_run_mode.o)
+                0x00001a9c                STEPPER_process_run_mode
+ .text          0x00001ca2       0xa8 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_process_step_mode.o)
+                0x00001ca2                STEPPER_process_step_mode
+ .text          0x00001d4a       0x44 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_set_speed.o)
+                0x00001d4a                STEPPER_set_speed
+ .text          0x00001d8e       0x4a C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_stop.o)
+                0x00001d8e                STEPPER_stop
+ .text          0x00001dd8       0xd6 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_process.o)
+                0x00001dd8                TMRSRVC_process
+ .text          0x00001eae        0x6 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_stop.o)
+                0x00001eae                TMRSRVC_stop
+ .text          0x00001eb4      0x130 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_process_pwm.o)
+                0x00001eb4                STEPPER_process_pwm
+ .text          0x00001fe4       0x36 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_set_steps.o)
+                0x00001fe4                STEPPER_set_steps
+ .text          0x0000201a        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .text          0x0000201a        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .text          0x0000201a        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text          0x0000201a        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text          0x0000201a        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text          0x0000201a      0x1f4 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+                0x0000201a                __mulsf3
+ .text          0x0000220e      0x158 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+                0x0000220e                __divsf3
+ .text          0x00002366        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .text          0x00002366       0xf2 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+                0x00002366                __floatunsisf
+ .text          0x00002458        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .text          0x00002458        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .text          0x00002458       0x9e e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+                0x00002458                __clzsi2
+ .text          0x000024f6      0x1aa e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+                0x000024f6                __pack_f
+ .text          0x000026a0       0xf0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+                0x000026a0                __unpack_f
+ .text          0x00002790        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+ .text          0x00002790        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+ .text          0x00002790        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(iob.o)
+ .text          0x00002790        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(puts.o)
+ .text          0x00002790        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(lrint.o)
+ .text          0x00002790        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(pow.o)
+ .text          0x00002790        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(exp.o)
+ .text          0x00002790        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_inf.o)
+ .text          0x00002790        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_nan.o)
+ .text          0x00002790        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_powser.o)
+ .text          0x00002790        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_split3.o)
+ .text          0x00002790        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_zero.o)
+ .text          0x00002790        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(inverse.o)
+ .text          0x00002790        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ldexp.o)
+ .text          0x00002790        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(log.o)
+ .text          0x00002790        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(modf.o)
+ .text          0x00002790        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(mulsf3x.o)
+ .text          0x00002790        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(addsf3.o)
+ .text          0x00002790        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(addsf3x.o)
+ .text          0x00002790        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(floatsisf.o)
+ .text          0x00002790        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_mpack.o)
+ .text          0x00002790        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_pscA.o)
+ .text          0x00002790        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_pscB.o)
+ .text          0x00002790        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_round.o)
+                0x00002790                . = ALIGN (0x2)
+ *(.text.*)
+ .text.libgcc   0x00002790       0x3e e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+                0x00002790                __mulsi3
+ .text.libgcc   0x000027ce       0x44 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                0x000027ce                __udivmodsi4
+ .text.libgcc   0x00002812        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00002812        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00002812        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00002812       0x38 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                0x00002812                __prologue_saves__
+ .text.libgcc   0x0000284a       0x36 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                0x0000284a                __epilogue_restores__
+ .text.avr-libc
+                0x00002880      0x20a e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x00002880                malloc
+                0x000029da                free
+ .text.avr-libc
+                0x00002a8a       0x6a e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(puts.o)
+                0x00002a8a                puts
+ .text.avr-libc.fplib
+                0x00002af4       0x74 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(lrint.o)
+                0x00002af4                lrint
+ .text.avr-libc.fplib
+                0x00002b68       0x98 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(pow.o)
+                0x00002b68                pow
+ .text.avr-libc.fplib
+                0x00002c00       0x62 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(exp.o)
+                0x00002c0a                exp
+ .text.avr-libc.fplib
+                0x00002c62        0xc e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_inf.o)
+                0x00002c62                __fp_inf
+ .text.avr-libc.fplib
+                0x00002c6e        0x6 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_nan.o)
+                0x00002c6e                __fp_nan
+ .text.avr-libc.fplib
+                0x00002c74       0x4a e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_powser.o)
+                0x00002c74                __fp_powser
+ .text.avr-libc.fplib
+                0x00002cbe       0x44 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_split3.o)
+                0x00002cbe                __fp_split3
+                0x00002cce                __fp_splitA
+ .text.avr-libc.fplib
+                0x00002d02        0xe e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_zero.o)
+                0x00002d02                __fp_zero
+                0x00002d04                __fp_szero
+ .text.avr-libc.fplib
+                0x00002d10        0xe e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(inverse.o)
+                0x00002d10                inverse
+ .text.avr-libc.fplib
+                0x00002d1e       0x6c e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ldexp.o)
+                0x00002d22                ldexp
+ .text.avr-libc.fplib
+                0x00002d8a       0x8a e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(log.o)
+                0x00002d94                log
+ .text.avr-libc.fplib
+                0x00002e14       0x66 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(modf.o)
+                0x00002e14                modff
+                0x00002e14                modf
+ .text.avr-libc.fplib
+                0x00002e7a       0xc2 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(mulsf3x.o)
+                0x00002e92                __mulsf3_pse
+                0x00002e8e                __mulsf3x
+ .text.avr-libc.fplib
+                0x00002f3c        0xa e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(addsf3.o)
+                0x00002f3c                __subsf3
+                0x00002f3e                __addsf3
+ .text.avr-libc.fplib
+                0x00002f46       0xc0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(addsf3x.o)
+                0x00002f60                __addsf3x
+ .text.avr-libc.fplib
+                0x00003006       0x7a e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(floatsisf.o)
+                0x0000300a                __floatsisf
+ .text.avr-libc.fplib
+                0x00003080       0x1c e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_mpack.o)
+                0x00003084                __fp_mpack_finite
+                0x00003080                __fp_mpack
+ .text.avr-libc.fplib
+                0x0000309c        0xe e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_pscA.o)
+                0x0000309c                __fp_pscA
+ .text.avr-libc.fplib
+                0x000030aa        0xe e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_pscB.o)
+                0x000030aa                __fp_pscB
+ .text.avr-libc.fplib
+                0x000030b8       0x22 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_round.o)
+                0x000030b8                __fp_round
+                0x000030da                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x000030da        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                0x000030da                exit
+                0x000030da                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x000030da        0x4 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x000030de                _etext = .
+
+.data           0x00800100      0x16a load address 0x000030de
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm324p.o
+ .data          0x00800100        0xe VoiceControl.o
+ .data          0x0080010e        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(CBOT_main.o)
+ .data          0x0080010e        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_clear.o)
+ .data          0x0080010e        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_open.o)
+ .data          0x0080010e        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_set_backlight.o)
+ .data          0x0080010e        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_set_next_PGC.o)
+ .data          0x0080010e        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_set_PGC_addr.o)
+ .data          0x0080010e        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_write.o)
+ .data          0x0080010e        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPI_set_slave_addr.o)
+ .data          0x0080010e        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPI_transmit.o)
+ .data          0x0080010e        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SYS_get_state.o)
+ .data          0x0080010e        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SYS_globals.o)
+ .data          0x0080010e        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SYS_set_state.o)
+ .data          0x0080010e        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(CBOT_init.o)
+ .data          0x0080010e        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(CBOT_isr.o)
+ .data          0x0080010e        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ISR_globals.o)
+ .data          0x0080010e        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ISR_open.o)
+ .data          0x0080010e        0xe C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_globals.o)
+                0x0080010e                LCD_stdout
+ .data          0x0080011c        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__LCD_init.o)
+ .data          0x0080011c        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__LCD_putchar.o)
+ .data          0x0080011c        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ATMEGA_open.o)
+ .data          0x0080011c        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ATMEGA_set_clk_mode.o)
+ .data          0x0080011c        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPI_globals.o)
+ .data          0x0080011c        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPI_open.o)
+ .data          0x0080011c        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPI_set_config_func.o)
+ .data          0x0080011c        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_close.o)
+ .data          0x0080011c       0x38 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_globals.o)
+                0x0080014c                diatonic_LUT
+                0x0080011c                note_LUT
+ .data          0x00800154        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_open.o)
+ .data          0x00800154        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_play_beep.o)
+ .data          0x00800154        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__SPKR_stop.o)
+ .data          0x00800154        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SYS_init.o)
+ .data          0x00800154        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ATTINY_open.o)
+ .data          0x00800154        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_delay.o)
+ .data          0x00800154        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_new.o)
+ .data          0x00800154        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_open.o)
+ .data          0x00800154        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__TMRSRVC_start.o)
+ .data          0x00800154        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__ISR_attach.o)
+ .data          0x00800154        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ISR_attach.o)
+ .data          0x00800154        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__ATMEGA_init.o)
+ .data          0x00800154        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPI_cfgrs.o)
+ .data          0x00800154        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__SPI_init.o)
+ .data          0x00800154        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ISR__SPKR__TIMER1_COMPA_vect.o)
+ .data          0x00800154        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_beep.o)
+ .data          0x00800154        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_clk.o)
+ .data          0x00800154        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__SPKR_close.o)
+ .data          0x00800154        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__SPKR_init.o)
+ .data          0x00800154        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ATTINY_globals.o)
+ .data          0x00800154        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ISR__TIMER0_COMPA_vect.o)
+ .data          0x00800154        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_globals.o)
+ .data          0x00800154        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__TMRSRVC_init.o)
+ .data          0x00800154        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__TMRSRVC_insert.o)
+ .data          0x00800154        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_start.o)
+ .data          0x00800154        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_tick.o)
+ .data          0x00800154        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_beep_clk.o)
+ .data          0x00800154        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_clk.o)
+ .data          0x00800154        0x8 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_globals.o)
+                0x00800158                Motor_R_LUT
+                0x00800154                Motor_L_LUT
+ .data          0x0080015c        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_process_accel.o)
+ .data          0x0080015c        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_process_run_mode.o)
+ .data          0x0080015c        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_process_step_mode.o)
+ .data          0x0080015c        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_set_speed.o)
+ .data          0x0080015c        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_stop.o)
+ .data          0x0080015c        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_process.o)
+ .data          0x0080015c        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_stop.o)
+ .data          0x0080015c        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_process_pwm.o)
+ .data          0x0080015c        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_set_steps.o)
+ .data          0x0080015c        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .data          0x0080015c        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .data          0x0080015c        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .data          0x0080015c        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .data          0x0080015c        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .data          0x0080015c        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .data          0x0080015c        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .data          0x0080015c        0x8 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+                0x0080015c                __thenan_sf
+ .data          0x00800164        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .data          0x00800164        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .data          0x00800164        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .data          0x00800164        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .data          0x00800164        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .data          0x00800164        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .data          0x00800164      0x100 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+                0x00800164                __clz_tab
+ .data          0x00800264        0x6 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x00800266                __malloc_heap_start
+                0x00800268                __malloc_heap_end
+                0x00800264                __malloc_margin
+ .data          0x0080026a        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(iob.o)
+ .data          0x0080026a        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(puts.o)
+ .data          0x0080026a        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(lrint.o)
+ .data          0x0080026a        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(pow.o)
+ .data          0x0080026a        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(exp.o)
+ .data          0x0080026a        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_inf.o)
+ .data          0x0080026a        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_nan.o)
+ .data          0x0080026a        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_powser.o)
+ .data          0x0080026a        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_split3.o)
+ .data          0x0080026a        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_zero.o)
+ .data          0x0080026a        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(inverse.o)
+ .data          0x0080026a        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ldexp.o)
+ .data          0x0080026a        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(log.o)
+ .data          0x0080026a        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(modf.o)
+ .data          0x0080026a        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(mulsf3x.o)
+ .data          0x0080026a        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(addsf3.o)
+ .data          0x0080026a        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(addsf3x.o)
+ .data          0x0080026a        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(floatsisf.o)
+ .data          0x0080026a        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_mpack.o)
+ .data          0x0080026a        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_pscA.o)
+ .data          0x0080026a        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_pscB.o)
+ .data          0x0080026a        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_round.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x0080026a                . = ALIGN (0x2)
+                0x0080026a                _edata = .
+                0x0080026a                PROVIDE (__data_end, .)
+
+.bss            0x0080026a       0xe4
+                0x0080026a                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x0080026a        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm324p.o
+ .bss           0x0080026a        0x0 VoiceControl.o
+ .bss           0x0080026a        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(CBOT_main.o)
+ .bss           0x0080026a        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_clear.o)
+ .bss           0x0080026a        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_open.o)
+ .bss           0x0080026a        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_set_backlight.o)
+ .bss           0x0080026a        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_set_next_PGC.o)
+ .bss           0x0080026a        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_set_PGC_addr.o)
+ .bss           0x0080026a        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_write.o)
+ .bss           0x0080026a        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPI_set_slave_addr.o)
+ .bss           0x0080026a        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPI_transmit.o)
+ .bss           0x0080026a        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SYS_get_state.o)
+ .bss           0x0080026a        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SYS_globals.o)
+ .bss           0x0080026a        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SYS_set_state.o)
+ .bss           0x0080026a        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(CBOT_init.o)
+ .bss           0x0080026a        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(CBOT_isr.o)
+ .bss           0x0080026a       0x40 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ISR_globals.o)
+                0x0080026a                CBOT_ISR_vtable
+ .bss           0x008002aa        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ISR_open.o)
+ .bss           0x008002aa        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_globals.o)
+ .bss           0x008002aa        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__LCD_init.o)
+ .bss           0x008002aa        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__LCD_putchar.o)
+ .bss           0x008002aa        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ATMEGA_open.o)
+ .bss           0x008002aa        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ATMEGA_set_clk_mode.o)
+ .bss           0x008002aa       0x10 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPI_globals.o)
+                0x008002aa                spi_config_func_LUT
+ .bss           0x008002ba        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPI_open.o)
+ .bss           0x008002ba        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPI_set_config_func.o)
+ .bss           0x008002ba        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_close.o)
+ .bss           0x008002ba       0x10 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_globals.o)
+                0x008002c8                p_Freq_LUT
+                0x008002bc                spkr_accum32
+                0x008002c0                spkr_freq
+                0x008002c6                beep_freq
+                0x008002c4                beep_accum16
+                0x008002bb                beep_mode_active
+                0x008002ba                tone_mode_active
+ .bss           0x008002ca        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_open.o)
+ .bss           0x008002ca        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_play_beep.o)
+ .bss           0x008002ca        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__SPKR_stop.o)
+ .bss           0x008002ca        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SYS_init.o)
+ .bss           0x008002ca        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ATTINY_open.o)
+ .bss           0x008002ca        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_delay.o)
+ .bss           0x008002ca        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_new.o)
+ .bss           0x008002ca        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_open.o)
+ .bss           0x008002ca        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__TMRSRVC_start.o)
+ .bss           0x008002ca        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__ISR_attach.o)
+ .bss           0x008002ca        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ISR_attach.o)
+ .bss           0x008002ca        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__ATMEGA_init.o)
+ .bss           0x008002ca        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPI_cfgrs.o)
+ .bss           0x008002ca        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__SPI_init.o)
+ .bss           0x008002ca        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ISR__SPKR__TIMER1_COMPA_vect.o)
+ .bss           0x008002ca        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_beep.o)
+ .bss           0x008002ca        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_clk.o)
+ .bss           0x008002ca        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__SPKR_close.o)
+ .bss           0x008002ca        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__SPKR_init.o)
+ .bss           0x008002ca        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ATTINY_globals.o)
+ .bss           0x008002ca        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ISR__TIMER0_COMPA_vect.o)
+ .bss           0x008002ca        0x2 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_globals.o)
+                0x008002cb                timer_run_status
+                0x008002ca                timer_busy_status
+ .bss           0x008002cc        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__TMRSRVC_init.o)
+ .bss           0x008002cc        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(__TMRSRVC_insert.o)
+ .bss           0x008002cc        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_start.o)
+ .bss           0x008002cc        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_tick.o)
+ .bss           0x008002cc        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPKR_beep_clk.o)
+ .bss           0x008002cc        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_clk.o)
+ .bss           0x008002cc        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_globals.o)
+ .bss           0x008002cc        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_process_accel.o)
+ .bss           0x008002cc        0x1 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_process_run_mode.o)
+ .bss           0x008002cd        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_process_step_mode.o)
+ .bss           0x008002cd        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_set_speed.o)
+ .bss           0x008002cd        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_stop.o)
+ .bss           0x008002cd        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_process.o)
+ .bss           0x008002cd        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_stop.o)
+ .bss           0x008002cd        0x4 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_process_pwm.o)
+ .bss           0x008002d1        0x0 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_set_steps.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(iob.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(puts.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(lrint.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(pow.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(exp.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_inf.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_nan.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_powser.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_split3.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_zero.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(inverse.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ldexp.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(log.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(modf.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(mulsf3x.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(addsf3.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(addsf3x.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(floatsisf.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_mpack.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_pscA.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_pscB.o)
+ .bss           0x008002d1        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fp_round.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x008002d1       0x13 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SYS_globals.o)
+                0x008002d1                CBOT_system
+ COMMON         0x008002e4        0x5 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(LCD_globals.o)
+                0x008002e4                LCD_params
+ COMMON         0x008002e9        0x1 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(SPI_globals.o)
+                0x008002e9                curr_spi_addr
+ COMMON         0x008002ea       0x1e C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(ATTINY_globals.o)
+                0x008002ea                ATTINY_params
+ COMMON         0x00800308        0x3 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(TMRSRVC_globals.o)
+                0x00800308                tmrNodes
+ COMMON         0x0080030b       0x39 C:\Users\Dubs\Documents\VoiceControl\.\CEENbot API\libcapi324v221.a(STEPPER_globals.o)
+                0x0080030b                STEPPER_params
+                0x00800342                step_done
+ COMMON         0x00800344        0x4 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x00800344                __brkval
+                0x00800346                __flp
+ COMMON         0x00800348        0x6 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(iob.o)
+                0x00800348                __iob
+                0x0080034e                PROVIDE (__bss_end, .)
+                0x000030de                __data_load_start = LOADADDR (.data)
+                0x00003248                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0080034e        0x0
+                0x0080034e                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x0080034e                PROVIDE (__noinit_end, .)
+                0x0080034e                _end = .
+                0x0080034e                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xe0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 VoiceControl.o
+ .debug_aranges
+                0x00000020       0x20 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_aranges
+                0x00000040       0x20 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .debug_aranges
+                0x00000060       0x20 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .debug_aranges
+                0x00000080       0x20 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .debug_aranges
+                0x000000a0       0x20 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_aranges
+                0x000000c0       0x20 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+
+.debug_pubnames
+                0x00000000      0x123
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x20 VoiceControl.o
+ .debug_pubnames
+                0x00000020       0x1f e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_pubnames
+                0x0000003f       0x1f e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .debug_pubnames
+                0x0000005e       0x22 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_pubnames
+                0x00000080       0x24 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .debug_pubnames
+                0x000000a4       0x1f e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .debug_pubnames
+                0x000000c3       0x1f e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_pubnames
+                0x000000e2       0x21 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_pubnames
+                0x00000103       0x20 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+
+.debug_info     0x00000000     0x132d
+ *(.debug_info)
+ .debug_info    0x00000000       0x8a VoiceControl.o
+ .debug_info    0x0000008a      0x485 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_info    0x0000050f      0x3fc e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .debug_info    0x0000090b      0x12c e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_info    0x00000a37      0x206 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .debug_info    0x00000c3d      0x117 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .debug_info    0x00000d54      0x2df e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_info    0x00001033      0x251 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_info    0x00001284       0xa9 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000      0xabf
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x48 VoiceControl.o
+ .debug_abbrev  0x00000048      0x21b e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_abbrev  0x00000263      0x216 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .debug_abbrev  0x00000479       0xad e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_abbrev  0x00000526      0x157 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .debug_abbrev  0x0000067d       0xc4 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .debug_abbrev  0x00000741      0x1c0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_abbrev  0x00000901      0x154 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_abbrev  0x00000a55       0x6a e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+
+.debug_line     0x00000000      0xa3a
+ *(.debug_line)
+ .debug_line    0x00000000       0x73 VoiceControl.o
+ .debug_line    0x00000073      0x239 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_line    0x000002ac      0x1d5 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .debug_line    0x00000481       0x90 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_line    0x00000511      0x133 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .debug_line    0x00000644       0xa5 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .debug_line    0x000006e9      0x18a e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_line    0x00000873      0x14b e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_line    0x000009be       0x7c e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+
+.debug_frame    0x00000000       0xe0
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x20 VoiceControl.o
+ .debug_frame   0x00000020       0x20 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_frame   0x00000040       0x20 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .debug_frame   0x00000060       0x20 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .debug_frame   0x00000080       0x20 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .debug_frame   0x000000a0       0x20 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_frame   0x000000c0       0x20 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+
+.debug_str      0x00000000      0x2c0
+ *(.debug_str)
+ .debug_str     0x00000000       0xa5 VoiceControl.o
+                                 0xde (size before relaxing)
+ .debug_str     0x000000a5      0x14e e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+                                0x1bf (size before relaxing)
+ .debug_str     0x000001f3       0x35 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+                                0x1c8 (size before relaxing)
+ .debug_str     0x00000000      0x103 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_str     0x00000228       0x21 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+                                0x177 (size before relaxing)
+ .debug_str     0x00000249       0x5c e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+                                0x111 (size before relaxing)
+ .debug_str     0x000002a5       0x10 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+                                0x19d (size before relaxing)
+ .debug_str     0x000002b5        0xb e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+                                0x17f (size before relaxing)
+ .debug_str     0x00000000       0xf4 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+
+.debug_loc      0x00000000      0x48e
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x104 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_loc     0x00000104       0xc0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .debug_loc     0x000001c4       0x4c e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .debug_loc     0x00000210       0x94 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .debug_loc     0x000002a4      0x13e e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_loc     0x000003e2       0xac e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(VoiceControl.elf elf32-avr)
+LOAD linker stubs
+
+.debug_ranges   0x00000000       0x50
+ .debug_ranges  0x00000000       0x50 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
