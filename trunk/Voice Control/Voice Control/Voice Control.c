@@ -6,6 +6,7 @@
  */ 
 
 #include "capi324v221.h"
+
 void CBOT_main( void )
 {
 	// Open and initialize the LCD-subsystem.
