@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# AvrStudio Solution File, Format Version 11.00
+Project("{D1100916-62DA-4D80-A9B4-55A1E7CCEEB3}") = "Voice Control", "Voice Control\Voice Control.avrgccproj", "{EF9EBD01-79BF-41E7-9728-973601BF2F67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF9EBD01-79BF-41E7-9728-973601BF2F67}.Debug|AVR.ActiveCfg = Debug|AVR
+		{EF9EBD01-79BF-41E7-9728-973601BF2F67}.Debug|AVR.Build.0 = Debug|AVR
+		{EF9EBD01-79BF-41E7-9728-973601BF2F67}.Release|AVR.ActiveCfg = Release|AVR
+		{EF9EBD01-79BF-41E7-9728-973601BF2F67}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,7 +1,11 @@
+/*
+ * Voice_Control.c
+ *
+ * Created: 2/11/2012 6:38:56 PM
+ *  Author: Dubs
+ */ 
 
-// Desc: A 'Hello-Dolly' program that uses the CEENBoT-API.
 #include "capi324v221.h"
-
 void CBOT_main( void )
 {
 	// Open and initialize the LCD-subsystem.
@@ -12,4 +16,4 @@ void CBOT_main( void )
 	LCD_printf( "Hello, Dolly!\n" );
 	// Don't leave.
 	while( 1 );
-} // end CBOT_main(
+} // end CBOT_main()
