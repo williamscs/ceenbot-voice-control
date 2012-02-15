@@ -7,6 +7,15 @@
 #define F_CPU 20000000UL
 #include "capi324v221.h"
 
+/* Serial Commands */
+#define FORWARD		5
+#define BACKWARD	6
+#define TURNRIGHT	10
+#define TURNLEFT	11
+#define TURNAROUND	15
+#define STOP		99
+
+
 /* FUNCTION PROTOTYPES */
 void goForward();
 void goBackward();
@@ -30,11 +39,9 @@ void CBOT_main( void )
 	UART_open(UART_UART0);
 	UART_configure(UART_UART0, UART_8DBITS, UART_1SBIT, UART_NO_PARITY, 9600);
 	
-	// Clear the LCD.
-	LCD_clear();
-	// Print a message.
-	LCD_printf( "Try saying:\n\"CEENbot Go\"" );
-	// Don't leave.
+	
+	LCD_clear();		// Clear the LCD.
+	LCD_printf( "Try saying:\n\"CEENbot Go\"" );// Print a message.
 	
 	while( 1 )
 	{
@@ -42,29 +49,30 @@ void CBOT_main( void )
 		state = cmd;
 		switch (state) 
 		{
-			case 5: /* Command to Go Forward */
+			case FORWARD: /* Command to Go Forward */
 				goForward();
 				break;
-			case 6: /* Command to Reverse */
+			case BACKWARD: /* Command to Reverse */
 				goBackward();
 				break;
-			case 10: /* Command to turn right */
+			case TURNRIGHT: /* Command to turn right */
 				turnRight();
 				resumePrev(prev_state);
 				break;
-			case 11:/* Command to turn left */
+			case TURNLEFT:/* Command to turn left */
 				turnLeft();
 				resumePrev(prev_state);
 				break;
-			case 15: /* Command to do a U-turn */
+			case TURNAROUND: /* Command to do a U-turn */
 				turnAround();
 				resumePrev(prev_state);
 				break;
-			case 99:
+			case STOP:
 				stop();
 				break;
 			default: /* execute default action */
 				stop();
+				LCD_clear();
 				printf("DEFAULT STATE");
 				break;
 		}
@@ -109,10 +117,12 @@ void turnAround()
 
 void resumePrev( uint8_t prev_state )
 {
-	if(prev_state == 5)
+	if(prev_state == FORWARD)
 		goForward();
-	else if(prev_state == 6)
+	else if(prev_state == BACKWARD)
 		goBackward();
+	else if(prev_state == STOP )
+		stop();
 }
 
 void stop()
