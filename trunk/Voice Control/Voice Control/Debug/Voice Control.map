@@ -34,8 +34,12 @@ Archive member included because of file (symbol)
                               ../../CEENbot API\libcapi324v221.a(STEPPER_run.o) (STEPPER_set_speed)
 ../../CEENbot API\libcapi324v221.a(STEPPER_step.o)
                               ../../CEENbot API\libcapi324v221.a(STEPPER_move.o) (STEPPER_step)
+../../CEENbot API\libcapi324v221.a(STEPPER_stop.o)
+                              Voice Control.o (STEPPER_stop)
 ../../CEENbot API\libcapi324v221.a(STEPPER_wait_and_then.o)
                               ../../CEENbot API\libcapi324v221.a(STEPPER_move.o) (STEPPER_wait_and_then)
+../../CEENbot API\libcapi324v221.a(STEPPER_wait_on.o)
+                              Voice Control.o (STEPPER_wait_on)
 ../../CEENbot API\libcapi324v221.a(SYS_get_state.o)
                               ../../CEENbot API\libcapi324v221.a(LCD_open.o) (SYS_get_state)
 ../../CEENbot API\libcapi324v221.a(SYS_globals.o)
@@ -162,8 +166,6 @@ Archive member included because of file (symbol)
                               ../../CEENbot API\libcapi324v221.a(STEPPER_clk.o) (STEPPER_process_run_mode)
 ../../CEENbot API\libcapi324v221.a(STEPPER_process_step_mode.o)
                               ../../CEENbot API\libcapi324v221.a(STEPPER_process_run_mode.o) (STEPPER_process_step_mode)
-../../CEENbot API\libcapi324v221.a(STEPPER_stop.o)
-                              ../../CEENbot API\libcapi324v221.a(STEPPER_process_run_mode.o) (STEPPER_stop)
 ../../CEENbot API\libcapi324v221.a(TMRSRVC_process.o)
                               ../../CEENbot API\libcapi324v221.a(TMRSRVC_tick.o) (TMRSRVC_process)
 ../../CEENbot API\libcapi324v221.a(TMRSRVC_stop.o)
@@ -230,10 +232,22 @@ c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5
                               ../../CEENbot API\libcapi324v221.a(SPKR_open.o) (malloc)
 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(iob.o)
                               ../../CEENbot API\libcapi324v221.a(LCD_open.o) (__iob)
-c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(puts.o)
-                              Voice Control.o (puts)
+c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(printf.o)
+                              Voice Control.o (printf)
+c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                              c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(printf.o) (vfprintf)
+c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+                              c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (strnlen_P)
+c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(strnlen.o)
+                              c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (strnlen)
+c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(fputc.o)
+                              c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (fputc)
+c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+                              c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (__ultoa_invert)
+c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_prologue.o)
+                              c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(printf.o) (__prologue_saves__)
 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_epilogue.o)
-                              c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(puts.o) (__epilogue_restores__)
+                              c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(printf.o) (__epilogue_restores__)
 
 Allocating common symbols
 Common symbol       size              file
@@ -366,7 +380,7 @@ LOAD c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/av
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000     0x3750
+.text           0x00000000     0x3d78
  *(.vectors)
  .vectors       0x00000000       0x7c c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm324p.o
                 0x00000000                __vector_default
@@ -451,328 +465,357 @@ LOAD c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/av
                 0x0000059a                __vector_8
                 0x0000059a                __vector_26
                 0x0000059a                __vector_20
- .text          0x0000059e      0x1f0 Voice Control.o
+ .text          0x0000059e      0x2de Voice Control.o
                 0x0000059e                CBOT_main
-                0x00000614                goForward
-                0x0000062e                goBackward
-                0x00000648                turnLeft
-                0x000006ea                turnRight
- .text          0x0000078e       0x12 ../../CEENbot API\libcapi324v221.a(CBOT_main.o)
-                0x0000078e                main
- .text          0x000007a0       0x3a ../../CEENbot API\libcapi324v221.a(LCD_clear.o)
-                0x000007a0                LCD_clear
- .text          0x000007da      0x102 ../../CEENbot API\libcapi324v221.a(LCD_open.o)
-                0x000007da                LCD_open
- .text          0x000008dc       0x42 ../../CEENbot API\libcapi324v221.a(LCD_set_backlight.o)
-                0x000008dc                LCD_set_backlight
- .text          0x0000091e        0xe ../../CEENbot API\libcapi324v221.a(LCD_set_next_PGC.o)
-                0x0000091e                LCD_set_next_PGC
- .text          0x0000092c       0x32 ../../CEENbot API\libcapi324v221.a(LCD_set_PGC_addr.o)
-                0x0000092c                LCD_set_PGC_addr
- .text          0x0000095e       0x36 ../../CEENbot API\libcapi324v221.a(LCD_write.o)
-                0x0000095e                LCD_write
- .text          0x00000994       0xa2 ../../CEENbot API\libcapi324v221.a(SPI_set_slave_addr.o)
-                0x00000994                SPI_set_slave_addr
- .text          0x00000a36       0x1e ../../CEENbot API\libcapi324v221.a(SPI_transmit.o)
-                0x00000a36                SPI_transmit
- .text          0x00000a54      0x2c8 ../../CEENbot API\libcapi324v221.a(STEPPER_move.o)
-                0x00000bce                STEPPER_move
- .text          0x00000d1c       0xae ../../CEENbot API\libcapi324v221.a(STEPPER_open.o)
-                0x00000d1c                STEPPER_open
- .text          0x00000dca       0x2e ../../CEENbot API\libcapi324v221.a(STEPPER_run.o)
-                0x00000dca                STEPPER_run
- .text          0x00000df8       0x44 ../../CEENbot API\libcapi324v221.a(STEPPER_set_accel.o)
-                0x00000df8                STEPPER_set_accel
- .text          0x00000e3c       0x2a ../../CEENbot API\libcapi324v221.a(STEPPER_set_dir.o)
-                0x00000e3c                STEPPER_set_dir
- .text          0x00000e66       0x2a ../../CEENbot API\libcapi324v221.a(STEPPER_set_mode.o)
-                0x00000e66                STEPPER_set_mode
- .text          0x00000e90       0x44 ../../CEENbot API\libcapi324v221.a(STEPPER_set_speed.o)
-                0x00000e90                STEPPER_set_speed
- .text          0x00000ed4      0x118 ../../CEENbot API\libcapi324v221.a(STEPPER_step.o)
-                0x00000ed4                STEPPER_step
- .text          0x00000fec       0x9c ../../CEENbot API\libcapi324v221.a(STEPPER_wait_and_then.o)
-                0x00000fec                STEPPER_wait_and_then
- .text          0x00001088       0x90 ../../CEENbot API\libcapi324v221.a(SYS_get_state.o)
-                0x00001088                SYS_get_state
- .text          0x00001118        0x0 ../../CEENbot API\libcapi324v221.a(SYS_globals.o)
- .text          0x00001118       0x8e ../../CEENbot API\libcapi324v221.a(SYS_set_state.o)
-                0x00001118                SYS_set_state
- .text          0x000011a6      0x1f2 ../../CEENbot API\libcapi324v221.a(UART_configure.o)
-                0x00001272                UART_configure
- .text          0x00001398        0x0 ../../CEENbot API\libcapi324v221.a(UART_globals.o)
- .text          0x00001398       0x9c ../../CEENbot API\libcapi324v221.a(UART_open.o)
-                0x00001398                UART_open
- .text          0x00001434       0x32 ../../CEENbot API\libcapi324v221.a(UART_set_timeout.o)
-                0x00001434                UART_set_timeout
- .text          0x00001466       0x1c ../../CEENbot API\libcapi324v221.a(CBOT_init.o)
-                0x00001466                CBOT_init
- .text          0x00001482      0x480 ../../CEENbot API\libcapi324v221.a(CBOT_isr.o)
-                0x00001482                CBOT_ISR_init
-                0x00001486                __vector_16
-                0x000014d8                __vector_17
-                0x0000152a                __vector_18
-                0x0000157c                __vector_9
-                0x000015ce                __vector_10
-                0x00001620                __vector_11
-                0x00001672                __vector_13
-                0x000016c4                __vector_14
-                0x00001716                __vector_12
-                0x00001768                __vector_15
-                0x000017ba                __vector_4
-                0x0000180c                __vector_5
-                0x0000185e                __vector_6
-                0x000018b0                __vector_7
- .text          0x00001902        0x0 ../../CEENbot API\libcapi324v221.a(ISR_globals.o)
- .text          0x00001902       0x28 ../../CEENbot API\libcapi324v221.a(ISR_open.o)
-                0x00001902                ISR_open
- .text          0x0000192a        0x0 ../../CEENbot API\libcapi324v221.a(LCD_globals.o)
- .text          0x0000192a        0x4 ../../CEENbot API\libcapi324v221.a(__LCD_init.o)
-                0x0000192a                __LCD_init
- .text          0x0000192e      0x15a ../../CEENbot API\libcapi324v221.a(__LCD_putchar.o)
-                0x0000192e                __LCD_putchar
- .text          0x00001a88       0x24 ../../CEENbot API\libcapi324v221.a(ATMEGA_open.o)
-                0x00001a88                ATMEGA_open
- .text          0x00001aac       0xa6 ../../CEENbot API\libcapi324v221.a(ATMEGA_set_clk_mode.o)
-                0x00001aac                ATMEGA_set_clk_mode
- .text          0x00001b52        0x0 ../../CEENbot API\libcapi324v221.a(SPI_globals.o)
- .text          0x00001b52       0x72 ../../CEENbot API\libcapi324v221.a(SPI_open.o)
-                0x00001b52                SPI_open
- .text          0x00001bc4       0x12 ../../CEENbot API\libcapi324v221.a(SPI_set_config_func.o)
-                0x00001bc4                SPI_set_config_func
- .text          0x00001bd6       0x72 ../../CEENbot API\libcapi324v221.a(SPKR_close.o)
-                0x00001bd6                __SPKR_close_beep_mode
-                0x00001bf2                __SPKR_close_tone_mode
-                0x00001c34                SPKR_close
- .text          0x00001c48        0x0 ../../CEENbot API\libcapi324v221.a(SPKR_globals.o)
- .text          0x00001c48      0x13c ../../CEENbot API\libcapi324v221.a(SPKR_open.o)
-                0x00001c48                __SPKR_set_up_freq_LUT
-                0x00001ce6                __SPKR_open_beep_mode
-                0x00001d12                __SPKR_open_tone_mode
-                0x00001d6a                SPKR_open
- .text          0x00001d84       0x9a ../../CEENbot API\libcapi324v221.a(SPKR_play_beep.o)
-                0x00001d84                SPKR_play_beep
- .text          0x00001e1e        0xc ../../CEENbot API\libcapi324v221.a(__SPKR_stop.o)
-                0x00001e1e                __SPKR_stop
- .text          0x00001e2a        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_globals.o)
- .text          0x00001e2a       0x2a ../../CEENbot API\libcapi324v221.a(STEPPER_go.o)
-                0x00001e2a                STEPPER_go
- .text          0x00001e54       0x14 ../../CEENbot API\libcapi324v221.a(__STEPPER_init.o)
-                0x00001e54                __STEPPER_init
- .text          0x00001e68       0x36 ../../CEENbot API\libcapi324v221.a(STEPPER_set_steps.o)
-                0x00001e68                STEPPER_set_steps
- .text          0x00001e9e       0x2a ../../CEENbot API\libcapi324v221.a(STEPPER_set_stop_mode.o)
-                0x00001e9e                STEPPER_set_stop_mode
- .text          0x00001ec8       0x7a ../../CEENbot API\libcapi324v221.a(STEPPER_setup_decels.o)
-                0x00001ec8                STEPPER_setup_decels
- .text          0x00001f42       0x46 ../../CEENbot API\libcapi324v221.a(SYS_init.o)
-                0x00001f42                SYS_init
- .text          0x00001f88       0x9e ../../CEENbot API\libcapi324v221.a(ATTINY_open.o)
-                0x00001f88                ATTINY_open
- .text          0x00002026       0x42 ../../CEENbot API\libcapi324v221.a(TMRSRVC_delay.o)
-                0x00002026                TMRSRVC_delay
- .text          0x00002068       0x7c ../../CEENbot API\libcapi324v221.a(TMRSRVC_new.o)
-                0x00002068                TMRSRVC_new
- .text          0x000020e4       0x3e ../../CEENbot API\libcapi324v221.a(TMRSRVC_open.o)
-                0x000020e4                TMRSRVC_open
- .text          0x00002122        0xc ../../CEENbot API\libcapi324v221.a(__TMRSRVC_start.o)
-                0x00002122                __TMRSRVC_start
- .text          0x0000212e        0xe ../../CEENbot API\libcapi324v221.a(__UART0_putchar.o)
-                0x0000212e                __UART0_putchar
- .text          0x0000213c        0xe ../../CEENbot API\libcapi324v221.a(__UART1_putchar.o)
-                0x0000213c                __UART1_putchar
- .text          0x0000214a       0x1a ../../CEENbot API\libcapi324v221.a(__UART_init.o)
-                0x0000214a                __UART_init
- .text          0x00002164       0x70 ../../CEENbot API\libcapi324v221.a(UART_transmit.o)
-                0x00002164                UART_transmit
- .text          0x000021d4       0x22 ../../CEENbot API\libcapi324v221.a(__ISR_attach.o)
-                0x000021d4                __ISR_attach
- .text          0x000021f6       0x28 ../../CEENbot API\libcapi324v221.a(ISR_attach.o)
-                0x000021f6                ISR_attach
- .text          0x0000221e        0x6 ../../CEENbot API\libcapi324v221.a(__ATMEGA_init.o)
-                0x0000221e                __ATMEGA_init
- .text          0x00002224       0x52 ../../CEENbot API\libcapi324v221.a(SPI_cfgrs.o)
-                0x00002224                SPI_default_config
-                0x00002234                SPI_ATtiny0_config
-                0x00002244                SPI_PSXC_config
-                0x00002254                SPI_LCD_config
-                0x00002264                SPI_FLASH_config
- .text          0x00002276        0xe ../../CEENbot API\libcapi324v221.a(__SPI_init.o)
-                0x00002276                __SPI_init
- .text          0x00002284        0x6 ../../CEENbot API\libcapi324v221.a(ISR__SPKR__TIMER1_COMPA_vect.o)
-                0x00002284                __SPKR_TIMER1_COMPA_vect
- .text          0x0000228a       0x2e ../../CEENbot API\libcapi324v221.a(SPKR_beep.o)
-                0x0000228a                SPKR_beep
- .text          0x000022b8       0x82 ../../CEENbot API\libcapi324v221.a(SPKR_clk.o)
-                0x000022b8                SPKR_clk
- .text          0x0000233a       0x38 ../../CEENbot API\libcapi324v221.a(__SPKR_close.o)
-                0x0000233a                __SPKR_close
- .text          0x00002372       0x54 ../../CEENbot API\libcapi324v221.a(__SPKR_init.o)
-                0x00002372                __SPKR_init
- .text          0x000023c6       0xda ../../CEENbot API\libcapi324v221.a(STEPPER_set_decel_step_values.o)
-                0x000023c6                STEPPER_set_decel_step_values
- .text          0x000024a0        0x0 ../../CEENbot API\libcapi324v221.a(ATTINY_globals.o)
- .text          0x000024a0        0xe ../../CEENbot API\libcapi324v221.a(ISR__TIMER0_COMPA_vect.o)
-                0x000024a0                __TIMER0_COMPA_vect
- .text          0x000024ae        0x0 ../../CEENbot API\libcapi324v221.a(TMRSRVC_globals.o)
- .text          0x000024ae       0x12 ../../CEENbot API\libcapi324v221.a(__TMRSRVC_init.o)
-                0x000024ae                __TMRSRVC_init
- .text          0x000024c0       0xd2 ../../CEENbot API\libcapi324v221.a(__TMRSRVC_insert.o)
-                0x000024c0                TMRSRVC_insert
- .text          0x00002592        0x8 ../../CEENbot API\libcapi324v221.a(TMRSRVC_start.o)
-                0x00002592                TMRSRVC_start
- .text          0x0000259a       0x32 ../../CEENbot API\libcapi324v221.a(TMRSRVC_tick.o)
-                0x0000259a                TMRSRVC_tick
- .text          0x000025cc       0x4e ../../CEENbot API\libcapi324v221.a(SPKR_beep_clk.o)
-                0x000025cc                SPKR_beep_clk
- .text          0x0000261a      0x162 ../../CEENbot API\libcapi324v221.a(STEPPER_clk.o)
-                0x0000261a                STEPPER_clk
- .text          0x0000277c       0x8a ../../CEENbot API\libcapi324v221.a(STEPPER_process_accel.o)
-                0x0000277c                STEPPER_process_accel
- .text          0x00002806      0x206 ../../CEENbot API\libcapi324v221.a(STEPPER_process_run_mode.o)
-                0x00002806                STEPPER_process_run_mode
- .text          0x00002a0c       0xa8 ../../CEENbot API\libcapi324v221.a(STEPPER_process_step_mode.o)
-                0x00002a0c                STEPPER_process_step_mode
- .text          0x00002ab4       0x4a ../../CEENbot API\libcapi324v221.a(STEPPER_stop.o)
-                0x00002ab4                STEPPER_stop
- .text          0x00002afe       0xd6 ../../CEENbot API\libcapi324v221.a(TMRSRVC_process.o)
-                0x00002afe                TMRSRVC_process
- .text          0x00002bd4        0x6 ../../CEENbot API\libcapi324v221.a(TMRSRVC_stop.o)
-                0x00002bd4                TMRSRVC_stop
- .text          0x00002bda      0x130 ../../CEENbot API\libcapi324v221.a(STEPPER_process_pwm.o)
-                0x00002bda                STEPPER_process_pwm
- .text          0x00002d0a        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(divsf3.o)
- .text          0x00002d0a        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(divsf3x.o)
- .text          0x00002d0a        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(floatsisf.o)
- .text          0x00002d0a        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_inf.o)
- .text          0x00002d0a        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_nan.o)
- .text          0x00002d0a        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
- .text          0x00002d0a        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
- .text          0x00002d0a        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_round.o)
- .text          0x00002d0a        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_split3.o)
- .text          0x00002d0a        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_zero.o)
- .text          0x00002d0a        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(lrint.o)
- .text          0x00002d0a        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(mulsf3.o)
- .text          0x00002d0a        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
- .text          0x00002d0a        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(pow.o)
- .text          0x00002d0a        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(exp.o)
- .text          0x00002d0a        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_powser.o)
- .text          0x00002d0a        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(inverse.o)
- .text          0x00002d0a        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(ldexp.o)
- .text          0x00002d0a        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(log.o)
- .text          0x00002d0a        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(modf.o)
- .text          0x00002d0a        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(addsf3.o)
- .text          0x00002d0a        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(addsf3x.o)
- .text          0x00002d0a        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_mpack.o)
- .text          0x00002d0a        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_mulsi3.o)
- .text          0x00002d0a        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodsi4.o)
- .text          0x00002d0a        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_exit.o)
- .text          0x00002d0a        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_copy_data.o)
- .text          0x00002d0a        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_clear_bss.o)
- .text          0x00002d0a        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
- .text          0x00002d0a        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(iob.o)
- .text          0x00002d0a        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(puts.o)
- .text          0x00002d0a        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_epilogue.o)
-                0x00002d0a                . = ALIGN (0x2)
+                0x0000069e                goForward
+                0x000006b8                goBackward
+                0x000006d2                turnLeft
+                0x00000774                turnRight
+                0x00000818                turnAround
+                0x0000082e                resumePrev
+                0x00000858                stop
+                0x0000086e                makeSandwich
+ .text          0x0000087c       0x12 ../../CEENbot API\libcapi324v221.a(CBOT_main.o)
+                0x0000087c                main
+ .text          0x0000088e       0x3a ../../CEENbot API\libcapi324v221.a(LCD_clear.o)
+                0x0000088e                LCD_clear
+ .text          0x000008c8      0x102 ../../CEENbot API\libcapi324v221.a(LCD_open.o)
+                0x000008c8                LCD_open
+ .text          0x000009ca       0x42 ../../CEENbot API\libcapi324v221.a(LCD_set_backlight.o)
+                0x000009ca                LCD_set_backlight
+ .text          0x00000a0c        0xe ../../CEENbot API\libcapi324v221.a(LCD_set_next_PGC.o)
+                0x00000a0c                LCD_set_next_PGC
+ .text          0x00000a1a       0x32 ../../CEENbot API\libcapi324v221.a(LCD_set_PGC_addr.o)
+                0x00000a1a                LCD_set_PGC_addr
+ .text          0x00000a4c       0x36 ../../CEENbot API\libcapi324v221.a(LCD_write.o)
+                0x00000a4c                LCD_write
+ .text          0x00000a82       0xa2 ../../CEENbot API\libcapi324v221.a(SPI_set_slave_addr.o)
+                0x00000a82                SPI_set_slave_addr
+ .text          0x00000b24       0x1e ../../CEENbot API\libcapi324v221.a(SPI_transmit.o)
+                0x00000b24                SPI_transmit
+ .text          0x00000b42      0x2c8 ../../CEENbot API\libcapi324v221.a(STEPPER_move.o)
+                0x00000cbc                STEPPER_move
+ .text          0x00000e0a       0xae ../../CEENbot API\libcapi324v221.a(STEPPER_open.o)
+                0x00000e0a                STEPPER_open
+ .text          0x00000eb8       0x2e ../../CEENbot API\libcapi324v221.a(STEPPER_run.o)
+                0x00000eb8                STEPPER_run
+ .text          0x00000ee6       0x44 ../../CEENbot API\libcapi324v221.a(STEPPER_set_accel.o)
+                0x00000ee6                STEPPER_set_accel
+ .text          0x00000f2a       0x2a ../../CEENbot API\libcapi324v221.a(STEPPER_set_dir.o)
+                0x00000f2a                STEPPER_set_dir
+ .text          0x00000f54       0x2a ../../CEENbot API\libcapi324v221.a(STEPPER_set_mode.o)
+                0x00000f54                STEPPER_set_mode
+ .text          0x00000f7e       0x44 ../../CEENbot API\libcapi324v221.a(STEPPER_set_speed.o)
+                0x00000f7e                STEPPER_set_speed
+ .text          0x00000fc2      0x118 ../../CEENbot API\libcapi324v221.a(STEPPER_step.o)
+                0x00000fc2                STEPPER_step
+ .text          0x000010da       0x4a ../../CEENbot API\libcapi324v221.a(STEPPER_stop.o)
+                0x000010da                STEPPER_stop
+ .text          0x00001124       0x9c ../../CEENbot API\libcapi324v221.a(STEPPER_wait_and_then.o)
+                0x00001124                STEPPER_wait_and_then
+ .text          0x000011c0       0x34 ../../CEENbot API\libcapi324v221.a(STEPPER_wait_on.o)
+                0x000011c0                STEPPER_wait_on
+ .text          0x000011f4       0x90 ../../CEENbot API\libcapi324v221.a(SYS_get_state.o)
+                0x000011f4                SYS_get_state
+ .text          0x00001284        0x0 ../../CEENbot API\libcapi324v221.a(SYS_globals.o)
+ .text          0x00001284       0x8e ../../CEENbot API\libcapi324v221.a(SYS_set_state.o)
+                0x00001284                SYS_set_state
+ .text          0x00001312      0x1f2 ../../CEENbot API\libcapi324v221.a(UART_configure.o)
+                0x000013de                UART_configure
+ .text          0x00001504        0x0 ../../CEENbot API\libcapi324v221.a(UART_globals.o)
+ .text          0x00001504       0x9c ../../CEENbot API\libcapi324v221.a(UART_open.o)
+                0x00001504                UART_open
+ .text          0x000015a0       0x32 ../../CEENbot API\libcapi324v221.a(UART_set_timeout.o)
+                0x000015a0                UART_set_timeout
+ .text          0x000015d2       0x1c ../../CEENbot API\libcapi324v221.a(CBOT_init.o)
+                0x000015d2                CBOT_init
+ .text          0x000015ee      0x480 ../../CEENbot API\libcapi324v221.a(CBOT_isr.o)
+                0x000015ee                CBOT_ISR_init
+                0x000015f2                __vector_16
+                0x00001644                __vector_17
+                0x00001696                __vector_18
+                0x000016e8                __vector_9
+                0x0000173a                __vector_10
+                0x0000178c                __vector_11
+                0x000017de                __vector_13
+                0x00001830                __vector_14
+                0x00001882                __vector_12
+                0x000018d4                __vector_15
+                0x00001926                __vector_4
+                0x00001978                __vector_5
+                0x000019ca                __vector_6
+                0x00001a1c                __vector_7
+ .text          0x00001a6e        0x0 ../../CEENbot API\libcapi324v221.a(ISR_globals.o)
+ .text          0x00001a6e       0x28 ../../CEENbot API\libcapi324v221.a(ISR_open.o)
+                0x00001a6e                ISR_open
+ .text          0x00001a96        0x0 ../../CEENbot API\libcapi324v221.a(LCD_globals.o)
+ .text          0x00001a96        0x4 ../../CEENbot API\libcapi324v221.a(__LCD_init.o)
+                0x00001a96                __LCD_init
+ .text          0x00001a9a      0x15a ../../CEENbot API\libcapi324v221.a(__LCD_putchar.o)
+                0x00001a9a                __LCD_putchar
+ .text          0x00001bf4       0x24 ../../CEENbot API\libcapi324v221.a(ATMEGA_open.o)
+                0x00001bf4                ATMEGA_open
+ .text          0x00001c18       0xa6 ../../CEENbot API\libcapi324v221.a(ATMEGA_set_clk_mode.o)
+                0x00001c18                ATMEGA_set_clk_mode
+ .text          0x00001cbe        0x0 ../../CEENbot API\libcapi324v221.a(SPI_globals.o)
+ .text          0x00001cbe       0x72 ../../CEENbot API\libcapi324v221.a(SPI_open.o)
+                0x00001cbe                SPI_open
+ .text          0x00001d30       0x12 ../../CEENbot API\libcapi324v221.a(SPI_set_config_func.o)
+                0x00001d30                SPI_set_config_func
+ .text          0x00001d42       0x72 ../../CEENbot API\libcapi324v221.a(SPKR_close.o)
+                0x00001d42                __SPKR_close_beep_mode
+                0x00001d5e                __SPKR_close_tone_mode
+                0x00001da0                SPKR_close
+ .text          0x00001db4        0x0 ../../CEENbot API\libcapi324v221.a(SPKR_globals.o)
+ .text          0x00001db4      0x13c ../../CEENbot API\libcapi324v221.a(SPKR_open.o)
+                0x00001db4                __SPKR_set_up_freq_LUT
+                0x00001e52                __SPKR_open_beep_mode
+                0x00001e7e                __SPKR_open_tone_mode
+                0x00001ed6                SPKR_open
+ .text          0x00001ef0       0x9a ../../CEENbot API\libcapi324v221.a(SPKR_play_beep.o)
+                0x00001ef0                SPKR_play_beep
+ .text          0x00001f8a        0xc ../../CEENbot API\libcapi324v221.a(__SPKR_stop.o)
+                0x00001f8a                __SPKR_stop
+ .text          0x00001f96        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_globals.o)
+ .text          0x00001f96       0x2a ../../CEENbot API\libcapi324v221.a(STEPPER_go.o)
+                0x00001f96                STEPPER_go
+ .text          0x00001fc0       0x14 ../../CEENbot API\libcapi324v221.a(__STEPPER_init.o)
+                0x00001fc0                __STEPPER_init
+ .text          0x00001fd4       0x36 ../../CEENbot API\libcapi324v221.a(STEPPER_set_steps.o)
+                0x00001fd4                STEPPER_set_steps
+ .text          0x0000200a       0x2a ../../CEENbot API\libcapi324v221.a(STEPPER_set_stop_mode.o)
+                0x0000200a                STEPPER_set_stop_mode
+ .text          0x00002034       0x7a ../../CEENbot API\libcapi324v221.a(STEPPER_setup_decels.o)
+                0x00002034                STEPPER_setup_decels
+ .text          0x000020ae       0x46 ../../CEENbot API\libcapi324v221.a(SYS_init.o)
+                0x000020ae                SYS_init
+ .text          0x000020f4       0x9e ../../CEENbot API\libcapi324v221.a(ATTINY_open.o)
+                0x000020f4                ATTINY_open
+ .text          0x00002192       0x42 ../../CEENbot API\libcapi324v221.a(TMRSRVC_delay.o)
+                0x00002192                TMRSRVC_delay
+ .text          0x000021d4       0x7c ../../CEENbot API\libcapi324v221.a(TMRSRVC_new.o)
+                0x000021d4                TMRSRVC_new
+ .text          0x00002250       0x3e ../../CEENbot API\libcapi324v221.a(TMRSRVC_open.o)
+                0x00002250                TMRSRVC_open
+ .text          0x0000228e        0xc ../../CEENbot API\libcapi324v221.a(__TMRSRVC_start.o)
+                0x0000228e                __TMRSRVC_start
+ .text          0x0000229a        0xe ../../CEENbot API\libcapi324v221.a(__UART0_putchar.o)
+                0x0000229a                __UART0_putchar
+ .text          0x000022a8        0xe ../../CEENbot API\libcapi324v221.a(__UART1_putchar.o)
+                0x000022a8                __UART1_putchar
+ .text          0x000022b6       0x1a ../../CEENbot API\libcapi324v221.a(__UART_init.o)
+                0x000022b6                __UART_init
+ .text          0x000022d0       0x70 ../../CEENbot API\libcapi324v221.a(UART_transmit.o)
+                0x000022d0                UART_transmit
+ .text          0x00002340       0x22 ../../CEENbot API\libcapi324v221.a(__ISR_attach.o)
+                0x00002340                __ISR_attach
+ .text          0x00002362       0x28 ../../CEENbot API\libcapi324v221.a(ISR_attach.o)
+                0x00002362                ISR_attach
+ .text          0x0000238a        0x6 ../../CEENbot API\libcapi324v221.a(__ATMEGA_init.o)
+                0x0000238a                __ATMEGA_init
+ .text          0x00002390       0x52 ../../CEENbot API\libcapi324v221.a(SPI_cfgrs.o)
+                0x00002390                SPI_default_config
+                0x000023a0                SPI_ATtiny0_config
+                0x000023b0                SPI_PSXC_config
+                0x000023c0                SPI_LCD_config
+                0x000023d0                SPI_FLASH_config
+ .text          0x000023e2        0xe ../../CEENbot API\libcapi324v221.a(__SPI_init.o)
+                0x000023e2                __SPI_init
+ .text          0x000023f0        0x6 ../../CEENbot API\libcapi324v221.a(ISR__SPKR__TIMER1_COMPA_vect.o)
+                0x000023f0                __SPKR_TIMER1_COMPA_vect
+ .text          0x000023f6       0x2e ../../CEENbot API\libcapi324v221.a(SPKR_beep.o)
+                0x000023f6                SPKR_beep
+ .text          0x00002424       0x82 ../../CEENbot API\libcapi324v221.a(SPKR_clk.o)
+                0x00002424                SPKR_clk
+ .text          0x000024a6       0x38 ../../CEENbot API\libcapi324v221.a(__SPKR_close.o)
+                0x000024a6                __SPKR_close
+ .text          0x000024de       0x54 ../../CEENbot API\libcapi324v221.a(__SPKR_init.o)
+                0x000024de                __SPKR_init
+ .text          0x00002532       0xda ../../CEENbot API\libcapi324v221.a(STEPPER_set_decel_step_values.o)
+                0x00002532                STEPPER_set_decel_step_values
+ .text          0x0000260c        0x0 ../../CEENbot API\libcapi324v221.a(ATTINY_globals.o)
+ .text          0x0000260c        0xe ../../CEENbot API\libcapi324v221.a(ISR__TIMER0_COMPA_vect.o)
+                0x0000260c                __TIMER0_COMPA_vect
+ .text          0x0000261a        0x0 ../../CEENbot API\libcapi324v221.a(TMRSRVC_globals.o)
+ .text          0x0000261a       0x12 ../../CEENbot API\libcapi324v221.a(__TMRSRVC_init.o)
+                0x0000261a                __TMRSRVC_init
+ .text          0x0000262c       0xd2 ../../CEENbot API\libcapi324v221.a(__TMRSRVC_insert.o)
+                0x0000262c                TMRSRVC_insert
+ .text          0x000026fe        0x8 ../../CEENbot API\libcapi324v221.a(TMRSRVC_start.o)
+                0x000026fe                TMRSRVC_start
+ .text          0x00002706       0x32 ../../CEENbot API\libcapi324v221.a(TMRSRVC_tick.o)
+                0x00002706                TMRSRVC_tick
+ .text          0x00002738       0x4e ../../CEENbot API\libcapi324v221.a(SPKR_beep_clk.o)
+                0x00002738                SPKR_beep_clk
+ .text          0x00002786      0x162 ../../CEENbot API\libcapi324v221.a(STEPPER_clk.o)
+                0x00002786                STEPPER_clk
+ .text          0x000028e8       0x8a ../../CEENbot API\libcapi324v221.a(STEPPER_process_accel.o)
+                0x000028e8                STEPPER_process_accel
+ .text          0x00002972      0x206 ../../CEENbot API\libcapi324v221.a(STEPPER_process_run_mode.o)
+                0x00002972                STEPPER_process_run_mode
+ .text          0x00002b78       0xa8 ../../CEENbot API\libcapi324v221.a(STEPPER_process_step_mode.o)
+                0x00002b78                STEPPER_process_step_mode
+ .text          0x00002c20       0xd6 ../../CEENbot API\libcapi324v221.a(TMRSRVC_process.o)
+                0x00002c20                TMRSRVC_process
+ .text          0x00002cf6        0x6 ../../CEENbot API\libcapi324v221.a(TMRSRVC_stop.o)
+                0x00002cf6                TMRSRVC_stop
+ .text          0x00002cfc      0x130 ../../CEENbot API\libcapi324v221.a(STEPPER_process_pwm.o)
+                0x00002cfc                STEPPER_process_pwm
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(lrint.o)
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(pow.o)
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(exp.o)
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_powser.o)
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(inverse.o)
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(ldexp.o)
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(log.o)
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(modf.o)
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_mpack.o)
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_mulsi3.o)
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodsi4.o)
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_exit.o)
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_copy_data.o)
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(iob.o)
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(printf.o)
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(strnlen.o)
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_prologue.o)
+ .text          0x00002e2c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_epilogue.o)
+                0x00002e2c                . = ALIGN (0x2)
  *(.text.*)
  .text.avr-libc.fplib
-                0x00002d0a        0x4 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(divsf3.o)
-                0x00002d0a                __divsf3
+                0x00002e2c        0x4 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                0x00002e2c                __divsf3
  .text.avr-libc.fplib
-                0x00002d0e       0xcc c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(divsf3x.o)
-                0x00002d24                __divsf3x
-                0x00002d28                __divsf3_pse
+                0x00002e30       0xcc c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                0x00002e46                __divsf3x
+                0x00002e4a                __divsf3_pse
  .text.avr-libc.fplib
-                0x00002dda       0x7a c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(floatsisf.o)
-                0x00002dda                __floatunsisf
-                0x00002dde                __floatsisf
+                0x00002efc       0x7a c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                0x00002efc                __floatunsisf
+                0x00002f00                __floatsisf
  .text.avr-libc.fplib
-                0x00002e54        0xc c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_inf.o)
-                0x00002e54                __fp_inf
+                0x00002f76        0xc c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                0x00002f76                __fp_inf
  .text.avr-libc.fplib
-                0x00002e60        0x6 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_nan.o)
-                0x00002e60                __fp_nan
+                0x00002f82        0x6 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                0x00002f82                __fp_nan
  .text.avr-libc.fplib
-                0x00002e66        0xe c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
-                0x00002e66                __fp_pscA
+                0x00002f88        0xe c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                0x00002f88                __fp_pscA
  .text.avr-libc.fplib
-                0x00002e74        0xe c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
-                0x00002e74                __fp_pscB
+                0x00002f96        0xe c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                0x00002f96                __fp_pscB
  .text.avr-libc.fplib
-                0x00002e82       0x22 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_round.o)
-                0x00002e82                __fp_round
+                0x00002fa4       0x22 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                0x00002fa4                __fp_round
  .text.avr-libc.fplib
-                0x00002ea4       0x44 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_split3.o)
-                0x00002ea4                __fp_split3
-                0x00002eb4                __fp_splitA
+                0x00002fc6       0x44 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                0x00002fc6                __fp_split3
+                0x00002fd6                __fp_splitA
  .text.avr-libc.fplib
-                0x00002ee8        0xe c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_zero.o)
-                0x00002ee8                __fp_zero
-                0x00002eea                __fp_szero
+                0x0000300a        0xe c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                0x0000300a                __fp_zero
+                0x0000300c                __fp_szero
  .text.avr-libc.fplib
-                0x00002ef6       0x74 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(lrint.o)
-                0x00002ef6                lrint
+                0x00003018       0x74 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(lrint.o)
+                0x00003018                lrint
  .text.avr-libc.fplib
-                0x00002f6a        0x4 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(mulsf3.o)
-                0x00002f6a                __mulsf3
+                0x0000308c        0x4 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                0x0000308c                __mulsf3
  .text.avr-libc.fplib
-                0x00002f6e       0xc2 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
-                0x00002f82                __mulsf3x
-                0x00002f86                __mulsf3_pse
+                0x00003090       0xc2 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                0x000030a4                __mulsf3x
+                0x000030a8                __mulsf3_pse
  .text.avr-libc.fplib
-                0x00003030       0x98 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(pow.o)
-                0x00003030                pow
+                0x00003152       0x98 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(pow.o)
+                0x00003152                pow
  .text.avr-libc.fplib
-                0x000030c8       0x62 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(exp.o)
-                0x000030d2                exp
+                0x000031ea       0x62 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(exp.o)
+                0x000031f4                exp
  .text.avr-libc.fplib
-                0x0000312a       0x4a c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_powser.o)
-                0x0000312a                __fp_powser
+                0x0000324c       0x4a c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_powser.o)
+                0x0000324c                __fp_powser
  .text.avr-libc.fplib
-                0x00003174        0xe c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(inverse.o)
-                0x00003174                inverse
+                0x00003296        0xe c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(inverse.o)
+                0x00003296                inverse
  .text.avr-libc.fplib
-                0x00003182       0x6c c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(ldexp.o)
-                0x00003186                ldexp
+                0x000032a4       0x6c c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(ldexp.o)
+                0x000032a8                ldexp
  .text.avr-libc.fplib
-                0x000031ee       0x8a c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(log.o)
-                0x000031f8                log
+                0x00003310       0x8a c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(log.o)
+                0x0000331a                log
  .text.avr-libc.fplib
-                0x00003278       0x66 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(modf.o)
-                0x00003278                modf
-                0x00003278                modff
+                0x0000339a       0x66 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(modf.o)
+                0x0000339a                modf
+                0x0000339a                modff
  .text.avr-libc.fplib
-                0x000032de        0xa c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(addsf3.o)
-                0x000032de                __subsf3
-                0x000032e0                __addsf3
+                0x00003400        0xa c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(addsf3.o)
+                0x00003400                __subsf3
+                0x00003402                __addsf3
  .text.avr-libc.fplib
-                0x000032e8       0xc0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(addsf3x.o)
-                0x00003302                __addsf3x
+                0x0000340a       0xc0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+                0x00003424                __addsf3x
  .text.avr-libc.fplib
-                0x000033a8       0x1c c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_mpack.o)
-                0x000033a8                __fp_mpack
-                0x000033ac                __fp_mpack_finite
- .text.libgcc   0x000033c4       0x3e c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_mulsi3.o)
-                0x000033c4                __mulsi3
- .text.libgcc   0x00003402       0x44 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodsi4.o)
-                0x00003402                __udivmodsi4
- .text.libgcc   0x00003446        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_exit.o)
- .text.libgcc   0x00003446        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_copy_data.o)
- .text.libgcc   0x00003446        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_clear_bss.o)
+                0x000034ca       0x1c c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_mpack.o)
+                0x000034ca                __fp_mpack
+                0x000034ce                __fp_mpack_finite
+ .text.libgcc   0x000034e6       0x3e c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_mulsi3.o)
+                0x000034e6                __mulsi3
+ .text.libgcc   0x00003524       0x44 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodsi4.o)
+                0x00003524                __udivmodsi4
+ .text.libgcc   0x00003568        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00003568        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00003568        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_clear_bss.o)
  .text.avr-libc
-                0x00003446      0x266 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
-                0x00003446                malloc
-                0x0000357a                free
+                0x00003568      0x266 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x00003568                malloc
+                0x0000369c                free
  .text.avr-libc
-                0x000036ac       0x6a c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(puts.o)
-                0x000036ac                puts
- .text.libgcc   0x00003716       0x36 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_epilogue.o)
-                0x00003716                __epilogue_restores__
-                0x0000374c                . = ALIGN (0x2)
+                0x000037ce       0x2a c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(printf.o)
+                0x000037ce                printf
+ .text.avr-libc
+                0x000037f8      0x3ce c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                0x000037f8                vfprintf
+ .text.avr-libc
+                0x00003bc6       0x16 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+                0x00003bc6                strnlen_P
+ .text.avr-libc
+                0x00003bdc       0x16 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(strnlen.o)
+                0x00003bdc                strnlen
+ .text.avr-libc
+                0x00003bf2       0x58 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(fputc.o)
+                0x00003bf2                fputc
+ .text.avr-libc
+                0x00003c4a       0xbc c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+                0x00003c4a                __ultoa_invert
+ .text.libgcc   0x00003d06       0x38 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_prologue.o)
+                0x00003d06                __prologue_saves__
+ .text.libgcc   0x00003d3e       0x36 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_epilogue.o)
+                0x00003d3e                __epilogue_restores__
+                0x00003d74                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x0000374c        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_exit.o)
-                0x0000374c                _exit
-                0x0000374c                exit
+ .fini9         0x00003d74        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_exit.o)
+                0x00003d74                _exit
+                0x00003d74                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -791,317 +834,332 @@ LOAD c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/av
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x0000374c        0x4 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_exit.o)
+ .fini0         0x00003d74        0x4 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_exit.o)
  *(.fini0)
-                0x00003750                _etext = .
+                0x00003d78                _etext = .
 
-.data           0x00800100       0x7e load address 0x00003750
+.data           0x00800100       0x98 load address 0x00003d78
                 0x00800100                PROVIDE (__data_start, .)
  *(.data)
  .data          0x00800100        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm324p.o
- .data          0x00800100        0xe Voice Control.o
- .data          0x0080010e        0x0 ../../CEENbot API\libcapi324v221.a(CBOT_main.o)
- .data          0x0080010e        0x0 ../../CEENbot API\libcapi324v221.a(LCD_clear.o)
- .data          0x0080010e        0x0 ../../CEENbot API\libcapi324v221.a(LCD_open.o)
- .data          0x0080010e        0x0 ../../CEENbot API\libcapi324v221.a(LCD_set_backlight.o)
- .data          0x0080010e        0x0 ../../CEENbot API\libcapi324v221.a(LCD_set_next_PGC.o)
- .data          0x0080010e        0x0 ../../CEENbot API\libcapi324v221.a(LCD_set_PGC_addr.o)
- .data          0x0080010e        0x0 ../../CEENbot API\libcapi324v221.a(LCD_write.o)
- .data          0x0080010e        0x0 ../../CEENbot API\libcapi324v221.a(SPI_set_slave_addr.o)
- .data          0x0080010e        0x0 ../../CEENbot API\libcapi324v221.a(SPI_transmit.o)
- .data          0x0080010e        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_move.o)
- .data          0x0080010e        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_open.o)
- .data          0x0080010e        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_run.o)
- .data          0x0080010e        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_set_accel.o)
- .data          0x0080010e        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_set_dir.o)
- .data          0x0080010e        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_set_mode.o)
- .data          0x0080010e        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_set_speed.o)
- .data          0x0080010e        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_step.o)
- .data          0x0080010e        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_wait_and_then.o)
- .data          0x0080010e        0x0 ../../CEENbot API\libcapi324v221.a(SYS_get_state.o)
- .data          0x0080010e        0x0 ../../CEENbot API\libcapi324v221.a(SYS_globals.o)
- .data          0x0080010e        0x0 ../../CEENbot API\libcapi324v221.a(SYS_set_state.o)
- .data          0x0080010e        0x0 ../../CEENbot API\libcapi324v221.a(UART_configure.o)
- .data          0x0080010e       0x1c ../../CEENbot API\libcapi324v221.a(UART_globals.o)
-                0x0080010e                UART0_stdout
-                0x0080011c                UART1_stdout
- .data          0x0080012a        0x0 ../../CEENbot API\libcapi324v221.a(UART_open.o)
- .data          0x0080012a        0x0 ../../CEENbot API\libcapi324v221.a(UART_set_timeout.o)
- .data          0x0080012a        0x0 ../../CEENbot API\libcapi324v221.a(CBOT_init.o)
- .data          0x0080012a        0x0 ../../CEENbot API\libcapi324v221.a(CBOT_isr.o)
- .data          0x0080012a        0x0 ../../CEENbot API\libcapi324v221.a(ISR_globals.o)
- .data          0x0080012a        0x0 ../../CEENbot API\libcapi324v221.a(ISR_open.o)
- .data          0x0080012a        0xe ../../CEENbot API\libcapi324v221.a(LCD_globals.o)
-                0x0080012a                LCD_stdout
- .data          0x00800138        0x0 ../../CEENbot API\libcapi324v221.a(__LCD_init.o)
- .data          0x00800138        0x0 ../../CEENbot API\libcapi324v221.a(__LCD_putchar.o)
- .data          0x00800138        0x0 ../../CEENbot API\libcapi324v221.a(ATMEGA_open.o)
- .data          0x00800138        0x0 ../../CEENbot API\libcapi324v221.a(ATMEGA_set_clk_mode.o)
- .data          0x00800138        0x0 ../../CEENbot API\libcapi324v221.a(SPI_globals.o)
- .data          0x00800138        0x0 ../../CEENbot API\libcapi324v221.a(SPI_open.o)
- .data          0x00800138        0x0 ../../CEENbot API\libcapi324v221.a(SPI_set_config_func.o)
- .data          0x00800138        0x0 ../../CEENbot API\libcapi324v221.a(SPKR_close.o)
- .data          0x00800138       0x38 ../../CEENbot API\libcapi324v221.a(SPKR_globals.o)
-                0x00800138                note_LUT
-                0x00800168                diatonic_LUT
- .data          0x00800170        0x0 ../../CEENbot API\libcapi324v221.a(SPKR_open.o)
- .data          0x00800170        0x0 ../../CEENbot API\libcapi324v221.a(SPKR_play_beep.o)
- .data          0x00800170        0x0 ../../CEENbot API\libcapi324v221.a(__SPKR_stop.o)
- .data          0x00800170        0x8 ../../CEENbot API\libcapi324v221.a(STEPPER_globals.o)
-                0x00800170                Motor_L_LUT
-                0x00800174                Motor_R_LUT
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_go.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(__STEPPER_init.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_set_steps.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_set_stop_mode.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_setup_decels.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(SYS_init.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(ATTINY_open.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(TMRSRVC_delay.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(TMRSRVC_new.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(TMRSRVC_open.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(__TMRSRVC_start.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(__UART0_putchar.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(__UART1_putchar.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(__UART_init.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(UART_transmit.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(__ISR_attach.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(ISR_attach.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(__ATMEGA_init.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(SPI_cfgrs.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(__SPI_init.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(ISR__SPKR__TIMER1_COMPA_vect.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(SPKR_beep.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(SPKR_clk.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(__SPKR_close.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(__SPKR_init.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_set_decel_step_values.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(ATTINY_globals.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(ISR__TIMER0_COMPA_vect.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(TMRSRVC_globals.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(__TMRSRVC_init.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(__TMRSRVC_insert.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(TMRSRVC_start.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(TMRSRVC_tick.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(SPKR_beep_clk.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_clk.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_process_accel.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_process_run_mode.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_process_step_mode.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_stop.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(TMRSRVC_process.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(TMRSRVC_stop.o)
- .data          0x00800178        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_process_pwm.o)
- .data          0x00800178        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(divsf3.o)
- .data          0x00800178        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(divsf3x.o)
- .data          0x00800178        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(floatsisf.o)
- .data          0x00800178        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_inf.o)
- .data          0x00800178        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_nan.o)
- .data          0x00800178        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
- .data          0x00800178        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
- .data          0x00800178        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_round.o)
- .data          0x00800178        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_split3.o)
- .data          0x00800178        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_zero.o)
- .data          0x00800178        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(lrint.o)
- .data          0x00800178        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(mulsf3.o)
- .data          0x00800178        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
- .data          0x00800178        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(pow.o)
- .data          0x00800178        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(exp.o)
- .data          0x00800178        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_powser.o)
- .data          0x00800178        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(inverse.o)
- .data          0x00800178        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(ldexp.o)
- .data          0x00800178        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(log.o)
- .data          0x00800178        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(modf.o)
- .data          0x00800178        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(addsf3.o)
- .data          0x00800178        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(addsf3x.o)
- .data          0x00800178        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_mpack.o)
- .data          0x00800178        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_mulsi3.o)
- .data          0x00800178        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodsi4.o)
- .data          0x00800178        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_exit.o)
- .data          0x00800178        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_copy_data.o)
- .data          0x00800178        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_clear_bss.o)
- .data          0x00800178        0x6 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
-                0x00800178                __malloc_margin
-                0x0080017a                __malloc_heap_start
-                0x0080017c                __malloc_heap_end
- .data          0x0080017e        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(iob.o)
- .data          0x0080017e        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(puts.o)
- .data          0x0080017e        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_epilogue.o)
+ .data          0x00800100       0x27 Voice Control.o
+ .data          0x00800127        0x0 ../../CEENbot API\libcapi324v221.a(CBOT_main.o)
+ .data          0x00800127        0x0 ../../CEENbot API\libcapi324v221.a(LCD_clear.o)
+ .data          0x00800127        0x0 ../../CEENbot API\libcapi324v221.a(LCD_open.o)
+ .data          0x00800127        0x0 ../../CEENbot API\libcapi324v221.a(LCD_set_backlight.o)
+ .data          0x00800127        0x0 ../../CEENbot API\libcapi324v221.a(LCD_set_next_PGC.o)
+ .data          0x00800127        0x0 ../../CEENbot API\libcapi324v221.a(LCD_set_PGC_addr.o)
+ .data          0x00800127        0x0 ../../CEENbot API\libcapi324v221.a(LCD_write.o)
+ .data          0x00800127        0x0 ../../CEENbot API\libcapi324v221.a(SPI_set_slave_addr.o)
+ .data          0x00800127        0x0 ../../CEENbot API\libcapi324v221.a(SPI_transmit.o)
+ .data          0x00800127        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_move.o)
+ .data          0x00800127        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_open.o)
+ .data          0x00800127        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_run.o)
+ .data          0x00800127        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_set_accel.o)
+ .data          0x00800127        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_set_dir.o)
+ .data          0x00800127        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_set_mode.o)
+ .data          0x00800127        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_set_speed.o)
+ .data          0x00800127        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_step.o)
+ .data          0x00800127        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_stop.o)
+ .data          0x00800127        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_wait_and_then.o)
+ .data          0x00800127        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_wait_on.o)
+ .data          0x00800127        0x0 ../../CEENbot API\libcapi324v221.a(SYS_get_state.o)
+ .data          0x00800127        0x0 ../../CEENbot API\libcapi324v221.a(SYS_globals.o)
+ .data          0x00800127        0x0 ../../CEENbot API\libcapi324v221.a(SYS_set_state.o)
+ .data          0x00800127        0x0 ../../CEENbot API\libcapi324v221.a(UART_configure.o)
+ .data          0x00800127       0x1c ../../CEENbot API\libcapi324v221.a(UART_globals.o)
+                0x00800127                UART0_stdout
+                0x00800135                UART1_stdout
+ .data          0x00800143        0x0 ../../CEENbot API\libcapi324v221.a(UART_open.o)
+ .data          0x00800143        0x0 ../../CEENbot API\libcapi324v221.a(UART_set_timeout.o)
+ .data          0x00800143        0x0 ../../CEENbot API\libcapi324v221.a(CBOT_init.o)
+ .data          0x00800143        0x0 ../../CEENbot API\libcapi324v221.a(CBOT_isr.o)
+ .data          0x00800143        0x0 ../../CEENbot API\libcapi324v221.a(ISR_globals.o)
+ .data          0x00800143        0x0 ../../CEENbot API\libcapi324v221.a(ISR_open.o)
+ .data          0x00800143        0xe ../../CEENbot API\libcapi324v221.a(LCD_globals.o)
+                0x00800143                LCD_stdout
+ .data          0x00800151        0x0 ../../CEENbot API\libcapi324v221.a(__LCD_init.o)
+ .data          0x00800151        0x0 ../../CEENbot API\libcapi324v221.a(__LCD_putchar.o)
+ .data          0x00800151        0x0 ../../CEENbot API\libcapi324v221.a(ATMEGA_open.o)
+ .data          0x00800151        0x0 ../../CEENbot API\libcapi324v221.a(ATMEGA_set_clk_mode.o)
+ .data          0x00800151        0x0 ../../CEENbot API\libcapi324v221.a(SPI_globals.o)
+ .data          0x00800151        0x0 ../../CEENbot API\libcapi324v221.a(SPI_open.o)
+ .data          0x00800151        0x0 ../../CEENbot API\libcapi324v221.a(SPI_set_config_func.o)
+ .data          0x00800151        0x0 ../../CEENbot API\libcapi324v221.a(SPKR_close.o)
+ .data          0x00800151       0x38 ../../CEENbot API\libcapi324v221.a(SPKR_globals.o)
+                0x00800151                note_LUT
+                0x00800181                diatonic_LUT
+ .data          0x00800189        0x0 ../../CEENbot API\libcapi324v221.a(SPKR_open.o)
+ .data          0x00800189        0x0 ../../CEENbot API\libcapi324v221.a(SPKR_play_beep.o)
+ .data          0x00800189        0x0 ../../CEENbot API\libcapi324v221.a(__SPKR_stop.o)
+ .data          0x00800189        0x8 ../../CEENbot API\libcapi324v221.a(STEPPER_globals.o)
+                0x00800189                Motor_L_LUT
+                0x0080018d                Motor_R_LUT
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_go.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(__STEPPER_init.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_set_steps.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_set_stop_mode.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_setup_decels.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(SYS_init.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(ATTINY_open.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(TMRSRVC_delay.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(TMRSRVC_new.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(TMRSRVC_open.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(__TMRSRVC_start.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(__UART0_putchar.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(__UART1_putchar.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(__UART_init.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(UART_transmit.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(__ISR_attach.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(ISR_attach.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(__ATMEGA_init.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(SPI_cfgrs.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(__SPI_init.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(ISR__SPKR__TIMER1_COMPA_vect.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(SPKR_beep.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(SPKR_clk.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(__SPKR_close.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(__SPKR_init.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_set_decel_step_values.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(ATTINY_globals.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(ISR__TIMER0_COMPA_vect.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(TMRSRVC_globals.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(__TMRSRVC_init.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(__TMRSRVC_insert.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(TMRSRVC_start.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(TMRSRVC_tick.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(SPKR_beep_clk.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_clk.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_process_accel.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_process_run_mode.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_process_step_mode.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(TMRSRVC_process.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(TMRSRVC_stop.o)
+ .data          0x00800191        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_process_pwm.o)
+ .data          0x00800191        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .data          0x00800191        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .data          0x00800191        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .data          0x00800191        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .data          0x00800191        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .data          0x00800191        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .data          0x00800191        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .data          0x00800191        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .data          0x00800191        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .data          0x00800191        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .data          0x00800191        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(lrint.o)
+ .data          0x00800191        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .data          0x00800191        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .data          0x00800191        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(pow.o)
+ .data          0x00800191        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(exp.o)
+ .data          0x00800191        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_powser.o)
+ .data          0x00800191        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(inverse.o)
+ .data          0x00800191        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(ldexp.o)
+ .data          0x00800191        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(log.o)
+ .data          0x00800191        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(modf.o)
+ .data          0x00800191        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .data          0x00800191        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .data          0x00800191        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_mpack.o)
+ .data          0x00800191        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_mulsi3.o)
+ .data          0x00800191        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodsi4.o)
+ .data          0x00800191        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_exit.o)
+ .data          0x00800191        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_copy_data.o)
+ .data          0x00800191        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00800191        0x6 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x00800191                __malloc_margin
+                0x00800193                __malloc_heap_start
+                0x00800195                __malloc_heap_end
+ .data          0x00800197        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(iob.o)
+ .data          0x00800197        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(printf.o)
+ .data          0x00800197        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .data          0x00800197        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+ .data          0x00800197        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(strnlen.o)
+ .data          0x00800197        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .data          0x00800197        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+ .data          0x00800197        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_prologue.o)
+ .data          0x00800197        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_epilogue.o)
  *(.data*)
  *(.rodata)
  *(.rodata*)
  *(.gnu.linkonce.d*)
-                0x0080017e                . = ALIGN (0x2)
-                0x0080017e                _edata = .
-                0x0080017e                PROVIDE (__data_end, .)
+                0x00800198                . = ALIGN (0x2)
+ *fill*         0x00800197        0x1 00
+                0x00800198                _edata = .
+                0x00800198                PROVIDE (__data_end, .)
 
-.bss            0x0080017e      0x102
-                0x0080017e                PROVIDE (__bss_start, .)
+.bss            0x00800198      0x102
+                0x00800198                PROVIDE (__bss_start, .)
  *(.bss)
- .bss           0x0080017e        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm324p.o
- .bss           0x0080017e        0x0 Voice Control.o
- .bss           0x0080017e        0x0 ../../CEENbot API\libcapi324v221.a(CBOT_main.o)
- .bss           0x0080017e        0x0 ../../CEENbot API\libcapi324v221.a(LCD_clear.o)
- .bss           0x0080017e        0x0 ../../CEENbot API\libcapi324v221.a(LCD_open.o)
- .bss           0x0080017e        0x0 ../../CEENbot API\libcapi324v221.a(LCD_set_backlight.o)
- .bss           0x0080017e        0x0 ../../CEENbot API\libcapi324v221.a(LCD_set_next_PGC.o)
- .bss           0x0080017e        0x0 ../../CEENbot API\libcapi324v221.a(LCD_set_PGC_addr.o)
- .bss           0x0080017e        0x0 ../../CEENbot API\libcapi324v221.a(LCD_write.o)
- .bss           0x0080017e        0x0 ../../CEENbot API\libcapi324v221.a(SPI_set_slave_addr.o)
- .bss           0x0080017e        0x0 ../../CEENbot API\libcapi324v221.a(SPI_transmit.o)
- .bss           0x0080017e        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_move.o)
- .bss           0x0080017e        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_open.o)
- .bss           0x0080017e        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_run.o)
- .bss           0x0080017e        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_set_accel.o)
- .bss           0x0080017e        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_set_dir.o)
- .bss           0x0080017e        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_set_mode.o)
- .bss           0x0080017e        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_set_speed.o)
- .bss           0x0080017e        0x2 ../../CEENbot API\libcapi324v221.a(STEPPER_step.o)
- .bss           0x00800180        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_wait_and_then.o)
- .bss           0x00800180        0x0 ../../CEENbot API\libcapi324v221.a(SYS_get_state.o)
- .bss           0x00800180        0x0 ../../CEENbot API\libcapi324v221.a(SYS_globals.o)
- .bss           0x00800180        0x0 ../../CEENbot API\libcapi324v221.a(SYS_set_state.o)
- .bss           0x00800180        0x0 ../../CEENbot API\libcapi324v221.a(UART_configure.o)
- .bss           0x00800180        0x0 ../../CEENbot API\libcapi324v221.a(UART_globals.o)
- .bss           0x00800180        0x0 ../../CEENbot API\libcapi324v221.a(UART_open.o)
- .bss           0x00800180        0x0 ../../CEENbot API\libcapi324v221.a(UART_set_timeout.o)
- .bss           0x00800180        0x0 ../../CEENbot API\libcapi324v221.a(CBOT_init.o)
- .bss           0x00800180        0x0 ../../CEENbot API\libcapi324v221.a(CBOT_isr.o)
- .bss           0x00800180       0x40 ../../CEENbot API\libcapi324v221.a(ISR_globals.o)
-                0x00800180                CBOT_ISR_vtable
- .bss           0x008001c0        0x0 ../../CEENbot API\libcapi324v221.a(ISR_open.o)
- .bss           0x008001c0        0x0 ../../CEENbot API\libcapi324v221.a(LCD_globals.o)
- .bss           0x008001c0        0x0 ../../CEENbot API\libcapi324v221.a(__LCD_init.o)
- .bss           0x008001c0        0x0 ../../CEENbot API\libcapi324v221.a(__LCD_putchar.o)
- .bss           0x008001c0        0x0 ../../CEENbot API\libcapi324v221.a(ATMEGA_open.o)
- .bss           0x008001c0        0x0 ../../CEENbot API\libcapi324v221.a(ATMEGA_set_clk_mode.o)
- .bss           0x008001c0       0x10 ../../CEENbot API\libcapi324v221.a(SPI_globals.o)
-                0x008001c0                spi_config_func_LUT
- .bss           0x008001d0        0x0 ../../CEENbot API\libcapi324v221.a(SPI_open.o)
- .bss           0x008001d0        0x0 ../../CEENbot API\libcapi324v221.a(SPI_set_config_func.o)
- .bss           0x008001d0        0x0 ../../CEENbot API\libcapi324v221.a(SPKR_close.o)
- .bss           0x008001d0       0x10 ../../CEENbot API\libcapi324v221.a(SPKR_globals.o)
-                0x008001d0                tone_mode_active
-                0x008001d1                beep_mode_active
-                0x008001d2                spkr_accum32
-                0x008001d6                spkr_freq
-                0x008001da                beep_accum16
-                0x008001dc                beep_freq
-                0x008001de                p_Freq_LUT
- .bss           0x008001e0        0x0 ../../CEENbot API\libcapi324v221.a(SPKR_open.o)
- .bss           0x008001e0        0x0 ../../CEENbot API\libcapi324v221.a(SPKR_play_beep.o)
- .bss           0x008001e0        0x0 ../../CEENbot API\libcapi324v221.a(__SPKR_stop.o)
- .bss           0x008001e0        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_globals.o)
- .bss           0x008001e0        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_go.o)
- .bss           0x008001e0        0x0 ../../CEENbot API\libcapi324v221.a(__STEPPER_init.o)
- .bss           0x008001e0        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_set_steps.o)
- .bss           0x008001e0        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_set_stop_mode.o)
- .bss           0x008001e0        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_setup_decels.o)
- .bss           0x008001e0        0x0 ../../CEENbot API\libcapi324v221.a(SYS_init.o)
- .bss           0x008001e0        0x0 ../../CEENbot API\libcapi324v221.a(ATTINY_open.o)
- .bss           0x008001e0        0x0 ../../CEENbot API\libcapi324v221.a(TMRSRVC_delay.o)
- .bss           0x008001e0        0x0 ../../CEENbot API\libcapi324v221.a(TMRSRVC_new.o)
- .bss           0x008001e0        0x0 ../../CEENbot API\libcapi324v221.a(TMRSRVC_open.o)
- .bss           0x008001e0        0x0 ../../CEENbot API\libcapi324v221.a(__TMRSRVC_start.o)
- .bss           0x008001e0        0x0 ../../CEENbot API\libcapi324v221.a(__UART0_putchar.o)
- .bss           0x008001e0        0x0 ../../CEENbot API\libcapi324v221.a(__UART1_putchar.o)
- .bss           0x008001e0        0x0 ../../CEENbot API\libcapi324v221.a(__UART_init.o)
- .bss           0x008001e0        0x0 ../../CEENbot API\libcapi324v221.a(UART_transmit.o)
- .bss           0x008001e0        0x0 ../../CEENbot API\libcapi324v221.a(__ISR_attach.o)
- .bss           0x008001e0        0x0 ../../CEENbot API\libcapi324v221.a(ISR_attach.o)
- .bss           0x008001e0        0x0 ../../CEENbot API\libcapi324v221.a(__ATMEGA_init.o)
- .bss           0x008001e0        0x0 ../../CEENbot API\libcapi324v221.a(SPI_cfgrs.o)
- .bss           0x008001e0        0x0 ../../CEENbot API\libcapi324v221.a(__SPI_init.o)
- .bss           0x008001e0        0x0 ../../CEENbot API\libcapi324v221.a(ISR__SPKR__TIMER1_COMPA_vect.o)
- .bss           0x008001e0        0x0 ../../CEENbot API\libcapi324v221.a(SPKR_beep.o)
- .bss           0x008001e0        0x0 ../../CEENbot API\libcapi324v221.a(SPKR_clk.o)
- .bss           0x008001e0        0x0 ../../CEENbot API\libcapi324v221.a(__SPKR_close.o)
- .bss           0x008001e0        0x0 ../../CEENbot API\libcapi324v221.a(__SPKR_init.o)
- .bss           0x008001e0        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_set_decel_step_values.o)
- .bss           0x008001e0        0x0 ../../CEENbot API\libcapi324v221.a(ATTINY_globals.o)
- .bss           0x008001e0        0x0 ../../CEENbot API\libcapi324v221.a(ISR__TIMER0_COMPA_vect.o)
- .bss           0x008001e0        0x2 ../../CEENbot API\libcapi324v221.a(TMRSRVC_globals.o)
-                0x008001e0                timer_busy_status
-                0x008001e1                timer_run_status
- .bss           0x008001e2        0x0 ../../CEENbot API\libcapi324v221.a(__TMRSRVC_init.o)
- .bss           0x008001e2        0x0 ../../CEENbot API\libcapi324v221.a(__TMRSRVC_insert.o)
- .bss           0x008001e2        0x0 ../../CEENbot API\libcapi324v221.a(TMRSRVC_start.o)
- .bss           0x008001e2        0x0 ../../CEENbot API\libcapi324v221.a(TMRSRVC_tick.o)
- .bss           0x008001e2        0x0 ../../CEENbot API\libcapi324v221.a(SPKR_beep_clk.o)
- .bss           0x008001e2        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_clk.o)
- .bss           0x008001e2        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_process_accel.o)
- .bss           0x008001e2        0x1 ../../CEENbot API\libcapi324v221.a(STEPPER_process_run_mode.o)
- .bss           0x008001e3        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_process_step_mode.o)
- .bss           0x008001e3        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_stop.o)
- .bss           0x008001e3        0x0 ../../CEENbot API\libcapi324v221.a(TMRSRVC_process.o)
- .bss           0x008001e3        0x0 ../../CEENbot API\libcapi324v221.a(TMRSRVC_stop.o)
- .bss           0x008001e3        0x4 ../../CEENbot API\libcapi324v221.a(STEPPER_process_pwm.o)
- .bss           0x008001e7        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(divsf3.o)
- .bss           0x008001e7        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(divsf3x.o)
- .bss           0x008001e7        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(floatsisf.o)
- .bss           0x008001e7        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_inf.o)
- .bss           0x008001e7        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_nan.o)
- .bss           0x008001e7        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
- .bss           0x008001e7        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
- .bss           0x008001e7        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_round.o)
- .bss           0x008001e7        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_split3.o)
- .bss           0x008001e7        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_zero.o)
- .bss           0x008001e7        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(lrint.o)
- .bss           0x008001e7        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(mulsf3.o)
- .bss           0x008001e7        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
- .bss           0x008001e7        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(pow.o)
- .bss           0x008001e7        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(exp.o)
- .bss           0x008001e7        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_powser.o)
- .bss           0x008001e7        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(inverse.o)
- .bss           0x008001e7        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(ldexp.o)
- .bss           0x008001e7        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(log.o)
- .bss           0x008001e7        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(modf.o)
- .bss           0x008001e7        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(addsf3.o)
- .bss           0x008001e7        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(addsf3x.o)
- .bss           0x008001e7        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_mpack.o)
- .bss           0x008001e7        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_mulsi3.o)
- .bss           0x008001e7        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodsi4.o)
- .bss           0x008001e7        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_exit.o)
- .bss           0x008001e7        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_copy_data.o)
- .bss           0x008001e7        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_clear_bss.o)
- .bss           0x008001e7        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
- .bss           0x008001e7        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(iob.o)
- .bss           0x008001e7        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(puts.o)
- .bss           0x008001e7        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_epilogue.o)
+ .bss           0x00800198        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm324p.o
+ .bss           0x00800198        0x0 Voice Control.o
+ .bss           0x00800198        0x0 ../../CEENbot API\libcapi324v221.a(CBOT_main.o)
+ .bss           0x00800198        0x0 ../../CEENbot API\libcapi324v221.a(LCD_clear.o)
+ .bss           0x00800198        0x0 ../../CEENbot API\libcapi324v221.a(LCD_open.o)
+ .bss           0x00800198        0x0 ../../CEENbot API\libcapi324v221.a(LCD_set_backlight.o)
+ .bss           0x00800198        0x0 ../../CEENbot API\libcapi324v221.a(LCD_set_next_PGC.o)
+ .bss           0x00800198        0x0 ../../CEENbot API\libcapi324v221.a(LCD_set_PGC_addr.o)
+ .bss           0x00800198        0x0 ../../CEENbot API\libcapi324v221.a(LCD_write.o)
+ .bss           0x00800198        0x0 ../../CEENbot API\libcapi324v221.a(SPI_set_slave_addr.o)
+ .bss           0x00800198        0x0 ../../CEENbot API\libcapi324v221.a(SPI_transmit.o)
+ .bss           0x00800198        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_move.o)
+ .bss           0x00800198        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_open.o)
+ .bss           0x00800198        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_run.o)
+ .bss           0x00800198        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_set_accel.o)
+ .bss           0x00800198        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_set_dir.o)
+ .bss           0x00800198        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_set_mode.o)
+ .bss           0x00800198        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_set_speed.o)
+ .bss           0x00800198        0x2 ../../CEENbot API\libcapi324v221.a(STEPPER_step.o)
+ .bss           0x0080019a        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_stop.o)
+ .bss           0x0080019a        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_wait_and_then.o)
+ .bss           0x0080019a        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_wait_on.o)
+ .bss           0x0080019a        0x0 ../../CEENbot API\libcapi324v221.a(SYS_get_state.o)
+ .bss           0x0080019a        0x0 ../../CEENbot API\libcapi324v221.a(SYS_globals.o)
+ .bss           0x0080019a        0x0 ../../CEENbot API\libcapi324v221.a(SYS_set_state.o)
+ .bss           0x0080019a        0x0 ../../CEENbot API\libcapi324v221.a(UART_configure.o)
+ .bss           0x0080019a        0x0 ../../CEENbot API\libcapi324v221.a(UART_globals.o)
+ .bss           0x0080019a        0x0 ../../CEENbot API\libcapi324v221.a(UART_open.o)
+ .bss           0x0080019a        0x0 ../../CEENbot API\libcapi324v221.a(UART_set_timeout.o)
+ .bss           0x0080019a        0x0 ../../CEENbot API\libcapi324v221.a(CBOT_init.o)
+ .bss           0x0080019a        0x0 ../../CEENbot API\libcapi324v221.a(CBOT_isr.o)
+ .bss           0x0080019a       0x40 ../../CEENbot API\libcapi324v221.a(ISR_globals.o)
+                0x0080019a                CBOT_ISR_vtable
+ .bss           0x008001da        0x0 ../../CEENbot API\libcapi324v221.a(ISR_open.o)
+ .bss           0x008001da        0x0 ../../CEENbot API\libcapi324v221.a(LCD_globals.o)
+ .bss           0x008001da        0x0 ../../CEENbot API\libcapi324v221.a(__LCD_init.o)
+ .bss           0x008001da        0x0 ../../CEENbot API\libcapi324v221.a(__LCD_putchar.o)
+ .bss           0x008001da        0x0 ../../CEENbot API\libcapi324v221.a(ATMEGA_open.o)
+ .bss           0x008001da        0x0 ../../CEENbot API\libcapi324v221.a(ATMEGA_set_clk_mode.o)
+ .bss           0x008001da       0x10 ../../CEENbot API\libcapi324v221.a(SPI_globals.o)
+                0x008001da                spi_config_func_LUT
+ .bss           0x008001ea        0x0 ../../CEENbot API\libcapi324v221.a(SPI_open.o)
+ .bss           0x008001ea        0x0 ../../CEENbot API\libcapi324v221.a(SPI_set_config_func.o)
+ .bss           0x008001ea        0x0 ../../CEENbot API\libcapi324v221.a(SPKR_close.o)
+ .bss           0x008001ea       0x10 ../../CEENbot API\libcapi324v221.a(SPKR_globals.o)
+                0x008001ea                tone_mode_active
+                0x008001eb                beep_mode_active
+                0x008001ec                spkr_accum32
+                0x008001f0                spkr_freq
+                0x008001f4                beep_accum16
+                0x008001f6                beep_freq
+                0x008001f8                p_Freq_LUT
+ .bss           0x008001fa        0x0 ../../CEENbot API\libcapi324v221.a(SPKR_open.o)
+ .bss           0x008001fa        0x0 ../../CEENbot API\libcapi324v221.a(SPKR_play_beep.o)
+ .bss           0x008001fa        0x0 ../../CEENbot API\libcapi324v221.a(__SPKR_stop.o)
+ .bss           0x008001fa        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_globals.o)
+ .bss           0x008001fa        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_go.o)
+ .bss           0x008001fa        0x0 ../../CEENbot API\libcapi324v221.a(__STEPPER_init.o)
+ .bss           0x008001fa        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_set_steps.o)
+ .bss           0x008001fa        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_set_stop_mode.o)
+ .bss           0x008001fa        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_setup_decels.o)
+ .bss           0x008001fa        0x0 ../../CEENbot API\libcapi324v221.a(SYS_init.o)
+ .bss           0x008001fa        0x0 ../../CEENbot API\libcapi324v221.a(ATTINY_open.o)
+ .bss           0x008001fa        0x0 ../../CEENbot API\libcapi324v221.a(TMRSRVC_delay.o)
+ .bss           0x008001fa        0x0 ../../CEENbot API\libcapi324v221.a(TMRSRVC_new.o)
+ .bss           0x008001fa        0x0 ../../CEENbot API\libcapi324v221.a(TMRSRVC_open.o)
+ .bss           0x008001fa        0x0 ../../CEENbot API\libcapi324v221.a(__TMRSRVC_start.o)
+ .bss           0x008001fa        0x0 ../../CEENbot API\libcapi324v221.a(__UART0_putchar.o)
+ .bss           0x008001fa        0x0 ../../CEENbot API\libcapi324v221.a(__UART1_putchar.o)
+ .bss           0x008001fa        0x0 ../../CEENbot API\libcapi324v221.a(__UART_init.o)
+ .bss           0x008001fa        0x0 ../../CEENbot API\libcapi324v221.a(UART_transmit.o)
+ .bss           0x008001fa        0x0 ../../CEENbot API\libcapi324v221.a(__ISR_attach.o)
+ .bss           0x008001fa        0x0 ../../CEENbot API\libcapi324v221.a(ISR_attach.o)
+ .bss           0x008001fa        0x0 ../../CEENbot API\libcapi324v221.a(__ATMEGA_init.o)
+ .bss           0x008001fa        0x0 ../../CEENbot API\libcapi324v221.a(SPI_cfgrs.o)
+ .bss           0x008001fa        0x0 ../../CEENbot API\libcapi324v221.a(__SPI_init.o)
+ .bss           0x008001fa        0x0 ../../CEENbot API\libcapi324v221.a(ISR__SPKR__TIMER1_COMPA_vect.o)
+ .bss           0x008001fa        0x0 ../../CEENbot API\libcapi324v221.a(SPKR_beep.o)
+ .bss           0x008001fa        0x0 ../../CEENbot API\libcapi324v221.a(SPKR_clk.o)
+ .bss           0x008001fa        0x0 ../../CEENbot API\libcapi324v221.a(__SPKR_close.o)
+ .bss           0x008001fa        0x0 ../../CEENbot API\libcapi324v221.a(__SPKR_init.o)
+ .bss           0x008001fa        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_set_decel_step_values.o)
+ .bss           0x008001fa        0x0 ../../CEENbot API\libcapi324v221.a(ATTINY_globals.o)
+ .bss           0x008001fa        0x0 ../../CEENbot API\libcapi324v221.a(ISR__TIMER0_COMPA_vect.o)
+ .bss           0x008001fa        0x2 ../../CEENbot API\libcapi324v221.a(TMRSRVC_globals.o)
+                0x008001fa                timer_busy_status
+                0x008001fb                timer_run_status
+ .bss           0x008001fc        0x0 ../../CEENbot API\libcapi324v221.a(__TMRSRVC_init.o)
+ .bss           0x008001fc        0x0 ../../CEENbot API\libcapi324v221.a(__TMRSRVC_insert.o)
+ .bss           0x008001fc        0x0 ../../CEENbot API\libcapi324v221.a(TMRSRVC_start.o)
+ .bss           0x008001fc        0x0 ../../CEENbot API\libcapi324v221.a(TMRSRVC_tick.o)
+ .bss           0x008001fc        0x0 ../../CEENbot API\libcapi324v221.a(SPKR_beep_clk.o)
+ .bss           0x008001fc        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_clk.o)
+ .bss           0x008001fc        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_process_accel.o)
+ .bss           0x008001fc        0x1 ../../CEENbot API\libcapi324v221.a(STEPPER_process_run_mode.o)
+ .bss           0x008001fd        0x0 ../../CEENbot API\libcapi324v221.a(STEPPER_process_step_mode.o)
+ .bss           0x008001fd        0x0 ../../CEENbot API\libcapi324v221.a(TMRSRVC_process.o)
+ .bss           0x008001fd        0x0 ../../CEENbot API\libcapi324v221.a(TMRSRVC_stop.o)
+ .bss           0x008001fd        0x4 ../../CEENbot API\libcapi324v221.a(STEPPER_process_pwm.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(lrint.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(pow.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(exp.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_powser.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(inverse.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(ldexp.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(log.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(modf.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_mpack.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_mulsi3.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_exit.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(iob.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(printf.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(strnlen.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_prologue.o)
+ .bss           0x00800201        0x0 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_epilogue.o)
  *(.bss*)
  *(COMMON)
- COMMON         0x008001e7       0x13 ../../CEENbot API\libcapi324v221.a(SYS_globals.o)
-                0x008001e7                CBOT_system
- COMMON         0x008001fa       0x1c ../../CEENbot API\libcapi324v221.a(UART_globals.o)
-                0x008001fa                UART1_timeout_timer
-                0x00800203                UART0_timeout_timer
-                0x0080020c                UART_params
- COMMON         0x00800216        0x5 ../../CEENbot API\libcapi324v221.a(LCD_globals.o)
-                0x00800216                LCD_params
- COMMON         0x0080021b        0x1 ../../CEENbot API\libcapi324v221.a(SPI_globals.o)
-                0x0080021b                curr_spi_addr
- COMMON         0x0080021c       0x39 ../../CEENbot API\libcapi324v221.a(STEPPER_globals.o)
-                0x0080021c                STEPPER_params
-                0x00800253                step_done
- COMMON         0x00800255       0x1e ../../CEENbot API\libcapi324v221.a(ATTINY_globals.o)
-                0x00800255                ATTINY_params
- COMMON         0x00800273        0x3 ../../CEENbot API\libcapi324v221.a(TMRSRVC_globals.o)
-                0x00800273                tmrNodes
- COMMON         0x00800276        0x4 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
-                0x00800276                __brkval
-                0x00800278                __flp
- COMMON         0x0080027a        0x6 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(iob.o)
-                0x0080027a                __iob
-                0x00800280                PROVIDE (__bss_end, .)
-                0x00003750                __data_load_start = LOADADDR (.data)
-                0x000037ce                __data_load_end = (__data_load_start + SIZEOF (.data))
+ COMMON         0x00800201       0x13 ../../CEENbot API\libcapi324v221.a(SYS_globals.o)
+                0x00800201                CBOT_system
+ COMMON         0x00800214       0x1c ../../CEENbot API\libcapi324v221.a(UART_globals.o)
+                0x00800214                UART1_timeout_timer
+                0x0080021d                UART0_timeout_timer
+                0x00800226                UART_params
+ COMMON         0x00800230        0x5 ../../CEENbot API\libcapi324v221.a(LCD_globals.o)
+                0x00800230                LCD_params
+ COMMON         0x00800235        0x1 ../../CEENbot API\libcapi324v221.a(SPI_globals.o)
+                0x00800235                curr_spi_addr
+ COMMON         0x00800236       0x39 ../../CEENbot API\libcapi324v221.a(STEPPER_globals.o)
+                0x00800236                STEPPER_params
+                0x0080026d                step_done
+ COMMON         0x0080026f       0x1e ../../CEENbot API\libcapi324v221.a(ATTINY_globals.o)
+                0x0080026f                ATTINY_params
+ COMMON         0x0080028d        0x3 ../../CEENbot API\libcapi324v221.a(TMRSRVC_globals.o)
+                0x0080028d                tmrNodes
+ COMMON         0x00800290        0x4 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x00800290                __brkval
+                0x00800292                __flp
+ COMMON         0x00800294        0x6 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(iob.o)
+                0x00800294                __iob
+                0x0080029a                PROVIDE (__bss_end, .)
+                0x00003d78                __data_load_start = LOADADDR (.data)
+                0x00003e10                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x00800280        0x0
-                0x00800280                PROVIDE (__noinit_start, .)
+.noinit         0x0080029a        0x0
+                0x0080029a                PROVIDE (__noinit_start, .)
  *(.noinit*)
-                0x00800280                PROVIDE (__noinit_end, .)
-                0x00800280                _end = .
-                0x00800280                PROVIDE (__heap_start, .)
+                0x0080029a                PROVIDE (__noinit_end, .)
+                0x0080029a                _end = .
+                0x0080029a                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
  *(.eeprom*)
@@ -1119,7 +1177,7 @@ LOAD c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/av
 .signature
  *(.signature*)
 
-.stab           0x00000000     0x3420
+.stab           0x00000000     0x39d8
  *(.stab)
  .stab          0x00000000      0x6cc c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm324p.o
  .stab          0x000006cc       0x48 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(divsf3.o)
@@ -1168,10 +1226,16 @@ LOAD c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/av
                                 0x4c8 (size before relaxing)
  .stab          0x0000333c       0xe4 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a(fp_mpack.o)
                                  0xf0 (size before relaxing)
+ .stab          0x00003420       0x9c c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+                                 0xa8 (size before relaxing)
+ .stab          0x000034bc       0x9c c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(strnlen.o)
+                                 0xa8 (size before relaxing)
+ .stab          0x00003558      0x480 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+                                0x48c (size before relaxing)
 
-.stabstr        0x00000000      0x943
+.stabstr        0x00000000      0xa74
  *(.stabstr)
- .stabstr       0x00000000      0x943 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm324p.o
+ .stabstr       0x00000000      0xa74 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm324p.o
 
 .stab.excl
  *(.stab.excl)
@@ -1200,70 +1264,91 @@ LOAD c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/av
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x00000000       0x68
+.debug_aranges  0x00000000       0xa8
  *(.debug_aranges)
  .debug_aranges
                 0x00000000       0x20 Voice Control.o
  .debug_aranges
                 0x00000020       0x28 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
  .debug_aranges
-                0x00000048       0x20 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(puts.o)
+                0x00000048       0x20 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(printf.o)
+ .debug_aranges
+                0x00000068       0x20 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .debug_aranges
+                0x00000088       0x20 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(fputc.o)
 
 .debug_pubnames
-                0x00000000      0x10e
+                0x00000000      0x183
  *(.debug_pubnames)
  .debug_pubnames
-                0x00000000       0x58 Voice Control.o
+                0x00000000       0x90 Voice Control.o
  .debug_pubnames
-                0x00000058       0x7f c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x00000090       0x7f c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
  .debug_pubnames
-                0x000000d7       0x1c c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(iob.o)
+                0x0000010f       0x1c c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(iob.o)
  .debug_pubnames
-                0x000000f3       0x1b c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(puts.o)
+                0x0000012b       0x1d c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(printf.o)
+ .debug_pubnames
+                0x00000148       0x1f c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .debug_pubnames
+                0x00000167       0x1c c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(fputc.o)
 
-.debug_info     0x00000000      0x796
+.debug_info     0x00000000      0xccc
  *(.debug_info)
- .debug_info    0x00000000      0x206 Voice Control.o
- .debug_info    0x00000206      0x296 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
- .debug_info    0x0000049c      0x14f c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(iob.o)
- .debug_info    0x000005eb      0x1ab c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(puts.o)
+ .debug_info    0x00000000      0x26a Voice Control.o
+ .debug_info    0x0000026a      0x296 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+ .debug_info    0x00000500      0x14f c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(iob.o)
+ .debug_info    0x0000064f      0x1c6 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(printf.o)
+ .debug_info    0x00000815      0x350 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .debug_info    0x00000b65      0x167 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(fputc.o)
  *(.gnu.linkonce.wi.*)
 
-.debug_abbrev   0x00000000      0x352
+.debug_abbrev   0x00000000      0x5b4
  *(.debug_abbrev)
- .debug_abbrev  0x00000000       0x97 Voice Control.o
- .debug_abbrev  0x00000097       0xf5 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
- .debug_abbrev  0x0000018c       0xc5 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(iob.o)
- .debug_abbrev  0x00000251      0x101 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(puts.o)
+ .debug_abbrev  0x00000000       0xa6 Voice Control.o
+ .debug_abbrev  0x000000a6       0xf5 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+ .debug_abbrev  0x0000019b       0xc5 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(iob.o)
+ .debug_abbrev  0x00000260      0x11c c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(printf.o)
+ .debug_abbrev  0x0000037c      0x15f c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .debug_abbrev  0x000004db       0xd9 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(fputc.o)
 
-.debug_line     0x00000000      0x7c8
+.debug_line     0x00000000     0x109c
  *(.debug_line)
- .debug_line    0x00000000      0x1d7 Voice Control.o
- .debug_line    0x000001d7      0x3c8 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
- .debug_line    0x0000059f       0xeb c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(iob.o)
- .debug_line    0x0000068a      0x13e c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(puts.o)
+ .debug_line    0x00000000      0x2cf Voice Control.o
+ .debug_line    0x000002cf      0x3c8 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+ .debug_line    0x00000697       0xeb c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(iob.o)
+ .debug_line    0x00000782      0x186 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(printf.o)
+ .debug_line    0x00000908      0x64d c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .debug_line    0x00000f55      0x147 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(fputc.o)
 
-.debug_frame    0x00000000       0xb0
+.debug_frame    0x00000000      0x130
  *(.debug_frame)
- .debug_frame   0x00000000       0x60 Voice Control.o
- .debug_frame   0x00000060       0x30 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
- .debug_frame   0x00000090       0x20 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(puts.o)
+ .debug_frame   0x00000000       0xa0 Voice Control.o
+ .debug_frame   0x000000a0       0x30 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+ .debug_frame   0x000000d0       0x20 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(printf.o)
+ .debug_frame   0x000000f0       0x20 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .debug_frame   0x00000110       0x20 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(fputc.o)
 
-.debug_str      0x00000000      0x475
+.debug_str      0x00000000      0x5ae
  *(.debug_str)
- .debug_str     0x00000000      0x2bd Voice Control.o
-                                0x2fc (size before relaxing)
- .debug_str     0x000002bd       0xf2 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+ .debug_str     0x00000000      0x2e5 Voice Control.o
+                                0x324 (size before relaxing)
+ .debug_str     0x000002e5       0xf2 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
                                 0x16a (size before relaxing)
- .debug_str     0x000003af       0x72 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(iob.o)
+ .debug_str     0x000003d7       0x72 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(iob.o)
                                  0xf2 (size before relaxing)
- .debug_str     0x00000421       0x54 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(puts.o)
-                                 0xf8 (size before relaxing)
+ .debug_str     0x00000449       0x72 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(printf.o)
+                                0x125 (size before relaxing)
+ .debug_str     0x000004bb       0x9d c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                                0x177 (size before relaxing)
+ .debug_str     0x00000558       0x56 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(fputc.o)
+                                 0xfb (size before relaxing)
 
-.debug_loc      0x00000000      0x4d0
+.debug_loc      0x00000000      0xb1a
  *(.debug_loc)
  .debug_loc     0x00000000      0x429 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
- .debug_loc     0x00000429       0xa7 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(puts.o)
+ .debug_loc     0x00000429      0x6a1 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .debug_loc     0x00000aca       0x50 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(fputc.o)
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -1271,7 +1356,7 @@ OUTPUT(Voice Control.elf elf32-avr)
 LOAD linker stubs
 
 .debug_pubtypes
-                0x00000000      0x14d
+                0x00000000      0x1e8
  .debug_pubtypes
                 0x00000000       0xc2 Voice Control.o
  .debug_pubtypes
@@ -1279,8 +1364,14 @@ LOAD linker stubs
  .debug_pubtypes
                 0x000000fb       0x29 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(iob.o)
  .debug_pubtypes
-                0x00000124       0x29 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(puts.o)
+                0x00000124       0x48 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(printf.o)
+ .debug_pubtypes
+                0x0000016c       0x53 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .debug_pubtypes
+                0x000001bf       0x29 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(fputc.o)
 
-.debug_ranges   0x00000000       0x28
+.debug_ranges   0x00000000       0x60
  .debug_ranges  0x00000000       0x18 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
- .debug_ranges  0x00000018       0x10 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(puts.o)
+ .debug_ranges  0x00000018       0x10 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(printf.o)
+ .debug_ranges  0x00000028       0x28 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .debug_ranges  0x00000050       0x10 c:/program files (x86)/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(fputc.o)
