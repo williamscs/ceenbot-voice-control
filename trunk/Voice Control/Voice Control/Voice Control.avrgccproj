@@ -44,25 +44,30 @@
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <ToolchainSettings>
       <AvrGcc>
-        <avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>True</avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>
-        <avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>True</avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>
-        <avrgcc.compiler.optimization.PackStructureMembers>True</avrgcc.compiler.optimization.PackStructureMembers>
-        <avrgcc.compiler.optimization.AllocateBytesNeededForEnum>True</avrgcc.compiler.optimization.AllocateBytesNeededForEnum>
-        <avrgcc.compiler.optimization.DebugLevel>Default (-g2)</avrgcc.compiler.optimization.DebugLevel>
-        <avrgcc.compiler.warnings.AllWarnings>True</avrgcc.compiler.warnings.AllWarnings>
-        <avrgcc.linker.libraries.Libraries>
-          <ListValues>
-            <Value>libcapi324v221.a</Value>
-            <Value>libm.a</Value>
-          </ListValues>
-        </avrgcc.linker.libraries.Libraries>
-        <avrgcc.linker.libraries.LibrarySearchPaths>
-          <ListValues>
-            <Value>../../CEENbot API</Value>
-          </ListValues>
-        </avrgcc.linker.libraries.LibrarySearchPaths>
-        <avrgcc.assembler.debugging.DebugLevel>Default (-g2)</avrgcc.assembler.debugging.DebugLevel>
-      </AvrGcc>
+  <avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>True</avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>
+  <avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>True</avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>
+  <avrgcc.compiler.directories.IncludePaths>
+    <ListValues>
+      <Value>../CEENbot API/lib-includes</Value>
+    </ListValues>
+  </avrgcc.compiler.directories.IncludePaths>
+  <avrgcc.compiler.optimization.PackStructureMembers>True</avrgcc.compiler.optimization.PackStructureMembers>
+  <avrgcc.compiler.optimization.AllocateBytesNeededForEnum>True</avrgcc.compiler.optimization.AllocateBytesNeededForEnum>
+  <avrgcc.compiler.optimization.DebugLevel>Default (-g2)</avrgcc.compiler.optimization.DebugLevel>
+  <avrgcc.compiler.warnings.AllWarnings>True</avrgcc.compiler.warnings.AllWarnings>
+  <avrgcc.linker.libraries.Libraries>
+    <ListValues>
+      <Value>libcapi324v221.a</Value>
+      <Value>libm.a</Value>
+    </ListValues>
+  </avrgcc.linker.libraries.Libraries>
+  <avrgcc.linker.libraries.LibrarySearchPaths>
+    <ListValues>
+      <Value>../CEENbot API/</Value>
+    </ListValues>
+  </avrgcc.linker.libraries.LibrarySearchPaths>
+  <avrgcc.assembler.debugging.DebugLevel>Default (-g2)</avrgcc.assembler.debugging.DebugLevel>
+</AvrGcc>
     </ToolchainSettings>
     <MemorySettings>
       <MemorySegments>
@@ -77,73 +82,73 @@
     <GenerateEepFile>True</GenerateEepFile>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="adc324v221.h">
+    <Compile Include="CEENbot API\lib-includes\adc324v221.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="capi324v221.h">
+    <Compile Include="CEENbot API\lib-includes\capi324v221.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="cbot324v221.h">
+    <Compile Include="CEENbot API\lib-includes\cbot324v221.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="gpi324v221.h">
+    <Compile Include="CEENbot API\lib-includes\gpi324v221.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="i2c324v221.h">
+    <Compile Include="CEENbot API\lib-includes\i2c324v221.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="isr324v221.h">
+    <Compile Include="CEENbot API\lib-includes\isr324v221.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="lcd324v221.h">
+    <Compile Include="CEENbot API\lib-includes\lcd324v221.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="led324v221.h">
+    <Compile Include="CEENbot API\lib-includes\led324v221.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="mega324v221.h">
+    <Compile Include="CEENbot API\lib-includes\mega324v221.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="psxc324v221.h">
+    <Compile Include="CEENbot API\lib-includes\psxc324v221.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="pwrmgr324v221.h">
+    <Compile Include="CEENbot API\lib-includes\pwrmgr324v221.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="spi324v221.h">
+    <Compile Include="CEENbot API\lib-includes\spi324v221.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="spiflash324v221.h">
+    <Compile Include="CEENbot API\lib-includes\spiflash324v221.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="spkr324v221.h">
+    <Compile Include="CEENbot API\lib-includes\spkr324v221.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="step324v221.h">
+    <Compile Include="CEENbot API\lib-includes\step324v221.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="swatch324v221.h">
+    <Compile Include="CEENbot API\lib-includes\swatch324v221.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="sys324v221.h">
+    <Compile Include="CEENbot API\lib-includes\sys324v221.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="ti324v221.h">
+    <Compile Include="CEENbot API\lib-includes\ti324v221.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="tiny324v221.h">
+    <Compile Include="CEENbot API\lib-includes\tiny324v221.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="tmrsrvc324v221.h">
+    <Compile Include="CEENbot API\lib-includes\tmrsrvc324v221.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="uart324v221.h">
+    <Compile Include="CEENbot API\lib-includes\uart324v221.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="usonic324v221.h">
+    <Compile Include="CEENbot API\lib-includes\usonic324v221.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="utils324v221.h">
+    <Compile Include="CEENbot API\lib-includes\utils324v221.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="Voice Control.c">
@@ -151,7 +156,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="libcapi324v221.a">
+    <Folder Include="CEENbot API\" />
+    <Folder Include="CEENbot API\lib-includes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CEENbot API\libcapi324v221.a">
       <SubType>compile</SubType>
     </None>
   </ItemGroup>

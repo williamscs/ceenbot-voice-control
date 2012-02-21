@@ -127,7 +127,7 @@ void goBackward()
 void turnLeft()
 {
 	//TURN LEFT (~90-degrees)...
-	STEPPER_move_stwt( STEPPER_BOTH,
+	STEPPER_move_stnb( STEPPER_BOTH,
 		STEPPER_REV, 150, 200, 400, STEPPER_BRK_OFF,   // Left
 		STEPPER_FWD, 150, 200, 400, STEPPER_BRK_OFF ); // Right
 }
@@ -135,7 +135,7 @@ void turnLeft()
 void turnRight()
 {
 	//TURN RIGHT (~90-degrees)...
-	STEPPER_move_stwt( STEPPER_BOTH,
+	STEPPER_move_stnb( STEPPER_BOTH,
 		STEPPER_FWD, 150, 200, 400, STEPPER_BRK_OFF,   // Left
 		STEPPER_REV, 150, 200, 400, STEPPER_BRK_OFF ); // Right
 }
