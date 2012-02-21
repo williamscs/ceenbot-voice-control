@@ -21,17 +21,17 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING
   8 .debug_abbrev 0000061a  00000000  00000000  00009de4  2**0
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_line   00001286  00000000  00000000  0000a3fe  2**0
+  9 .debug_line   000012a2  00000000  00000000  0000a3fe  2**0
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_frame  00000130  00000000  00000000  0000b684  2**2
+ 10 .debug_frame  00000130  00000000  00000000  0000b6a0  2**2
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_str    00000608  00000000  00000000  0000b7b4  2**0
+ 11 .debug_str    0000061b  00000000  00000000  0000b7d0  2**0
                   CONTENTS, READONLY, DEBUGGING
- 12 .debug_loc    00000b1a  00000000  00000000  0000bdbc  2**0
+ 12 .debug_loc    00000b1a  00000000  00000000  0000bdeb  2**0
                   CONTENTS, READONLY, DEBUGGING
- 13 .debug_pubtypes 00000208  00000000  00000000  0000c8d6  2**0
+ 13 .debug_pubtypes 00000208  00000000  00000000  0000c905  2**0
                   CONTENTS, READONLY, DEBUGGING
- 14 .debug_ranges 00000060  00000000  00000000  0000cade  2**0
+ 14 .debug_ranges 00000060  00000000  00000000  0000cb0d  2**0
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -844,7 +844,7 @@ void turnLeft()
      932:	cd b7       	in	r28, 0x3d	; 61
      934:	de b7       	in	r29, 0x3e	; 62
 	//TURN LEFT (~90-degrees)...
-	STEPPER_move_stwt( STEPPER_BOTH,
+	STEPPER_move_stnb( STEPPER_BOTH,
      936:	8d b7       	in	r24, 0x3d	; 61
      938:	9e b7       	in	r25, 0x3e	; 62
      93a:	09 97       	sbiw	r24, 0x09	; 9
@@ -876,7 +876,7 @@ void turnLeft()
      96e:	fc 01       	movw	r30, r24
      970:	10 86       	std	Z+8, r1	; 0x08
      972:	17 82       	std	Z+7, r1	; 0x07
-     974:	80 e0       	ldi	r24, 0x00	; 0
+     974:	81 e0       	ldi	r24, 0x01	; 1
      976:	62 e0       	ldi	r22, 0x02	; 2
      978:	41 e0       	ldi	r20, 0x01	; 1
      97a:	26 e9       	ldi	r18, 0x96	; 150
@@ -934,7 +934,7 @@ void turnRight()
      9d4:	cd b7       	in	r28, 0x3d	; 61
      9d6:	de b7       	in	r29, 0x3e	; 62
 	//TURN RIGHT (~90-degrees)...
-	STEPPER_move_stwt( STEPPER_BOTH,
+	STEPPER_move_stnb( STEPPER_BOTH,
      9d8:	8d b7       	in	r24, 0x3d	; 61
      9da:	9e b7       	in	r25, 0x3e	; 62
      9dc:	09 97       	sbiw	r24, 0x09	; 9
@@ -966,7 +966,7 @@ void turnRight()
      a10:	fc 01       	movw	r30, r24
      a12:	10 86       	std	Z+8, r1	; 0x08
      a14:	17 82       	std	Z+7, r1	; 0x07
-     a16:	80 e0       	ldi	r24, 0x00	; 0
+     a16:	81 e0       	ldi	r24, 0x01	; 1
      a18:	62 e0       	ldi	r22, 0x02	; 2
      a1a:	40 e0       	ldi	r20, 0x00	; 0
      a1c:	26 e9       	ldi	r18, 0x96	; 150
