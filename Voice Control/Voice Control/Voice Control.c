@@ -26,6 +26,10 @@ void resumePrev( uint8_t prev_state);
 void stopBot();
 void makeSandwich();
 
+/* GLOBAL VARIABLES */
+volatile uint8_t rxflag = 0;
+volatile uint8_t rxed = 0;
+
 void CBOT_main( void )
 {	
 	/* Local Variable Declaration */
@@ -166,5 +170,17 @@ void stopBot()
 
 void makeSandwich()
 {
-	//It really doesn't make you a sandwich.
+    //It really doesn't make you a sandwich.
 }
+
+ISR(USART_RX_vect) 
+{         
+    /* Wait for data to be received */
+    while ( !(UCSR0A  & (1 << RXC0)) );         
+        
+    /* Get and return received data from buffer */
+    rxed = UDR0;         
+    rxflag = 1; 
+} 
+
+
