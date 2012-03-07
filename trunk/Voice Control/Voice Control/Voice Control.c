@@ -6,14 +6,20 @@
  */ 
 #define F_CPU 20000000UL
 #include "capi324v221.h"
+#include<avr/interrupt.h>
+
+
+/* UART calcs */
+#define BAUD 9600UL
+#define MYUBRR (F_CPU/(16*BAUD))-1 
 
 /* Serial Commands */
-#define FORWARD		0
 #define BACKWARD	1
-#define TURNRIGHT	2
-#define TURNLEFT	3
-#define TURNAROUND	4
-#define STOP		5
+#define FORWARD		2
+#define TURNRIGHT	3
+#define TURNLEFT	4
+#define TURNAROUND	5
+#define STOP		0
 
 
 /* FUNCTION PROTOTYPES */
@@ -23,40 +29,42 @@ void turnRight();
 void turnLeft();
 void turnAround();
 void resumePrev( uint8_t prev_state);
-void stopBot();
+void stop();
 void makeSandwich();
+void USART_Init( unsigned int ubrr);
 
-/* GLOBAL VARIABLES */
-volatile uint8_t rxflag = 0;
-volatile uint8_t rxed = 0;
+/* Global Variables */
+volatile char cmd;
+volatile uint8_t rxflag;
 
 void CBOT_main( void )
 {	
 	/* Local Variable Declaration */
-	uint8_t cmd = 0;
 	uint8_t state = 0;
 	uint8_t prev_state = 0;
 	
 	/* Setting Up */
 	LCD_open();			// Open and initialize the LCD-subsystem.
 	STEPPER_open();     // Open STEPPER module for use.
-	UART_open(UART_UART0);
-	UART_configure(UART_UART0, UART_8DBITS, UART_1SBIT, UART_NO_PARITY, 9600);
-	
+	USART_Init(MYUBRR);
 	
 	LCD_clear();		// Clear the LCD.
 	LCD_printf( "Try saying:\n\"CEENbot Go\"" );// Print a message.
 	
 	while( 1 )
 	{
-		prev_state = state;
-		state = cmd;
+		if (rxflag)
+		{
+			prev_state = state;
+			state = cmd;
+			rxflag = 0;
+		}			
 		switch (state) 
 		{
 			case FORWARD: /* Command to Go Forward */
 				goForward();
 				LCD_clear();
-				printf("Forward %d", cmd);
+				printf("Forward");
 				break;
 			case BACKWARD: /* Command to Reverse */
 				goBackward();
@@ -68,51 +76,36 @@ void CBOT_main( void )
 				LCD_clear();
 				printf("Turn Right");
 				resumePrev(prev_state);
+				state = prev_state;
 				break;
 			case TURNLEFT:/* Command to turn left */
 				turnLeft();
 				LCD_clear();
 				printf("Turn Left");
 				resumePrev(prev_state);
+				state = prev_state;
 				break;
 			case TURNAROUND: /* Command to do a U-turn */
 				turnAround();
 				LCD_clear();
 				printf("Turn Around");
 				resumePrev(prev_state);
+				state = prev_state;
 				break;
 			case STOP:
-				stopBot();
+				stop();
+				LCD_clear();
+				printf("Stop");
 				break;
 			default: /* execute default action */
-				stopBot();
+				stop();
 				LCD_clear();
 				printf("DEFAULT STATE");
 				break;
 		}
-		if( ATTINY_get_SW_state(ATTINY_SW3))
-		{
-			cmd = TURNLEFT;
-			LCD_clear();
-			printf( "TURN LEFT");
-		}
-		else if( ATTINY_get_SW_state(ATTINY_SW4))
-		{
-			cmd = FORWARD;
-			LCD_clear();
-			printf( "FORWARD" );
-		}
-		else if( ATTINY_get_SW_state(ATTINY_SW5))
-		{
-			cmd = TURNRIGHT;
-			LCD_clear();
-			printf( "TURN RIGHT" );
-		}
-		++cmd;
-		if(cmd > STOP)
-			cmd = FORWARD;
-		_delay_ms(5000);
-		stopBot();
+		//STEPPER_wait_on( STEPPER_BOTH );
+		//_delay_ms(5000);
+		//cmd++;
 	}
 } // end CBOT_main()
 
@@ -131,7 +124,7 @@ void goBackward()
 void turnLeft()
 {
 	//TURN LEFT (~90-degrees)...
-	STEPPER_move_stnb( STEPPER_BOTH,
+	STEPPER_move_stwt( STEPPER_BOTH,
 		STEPPER_REV, 150, 200, 400, STEPPER_BRK_OFF,   // Left
 		STEPPER_FWD, 150, 200, 400, STEPPER_BRK_OFF ); // Right
 }
@@ -139,16 +132,17 @@ void turnLeft()
 void turnRight()
 {
 	//TURN RIGHT (~90-degrees)...
-	STEPPER_move_stnb( STEPPER_BOTH,
+	STEPPER_move_stwt( STEPPER_BOTH,
 		STEPPER_FWD, 150, 200, 400, STEPPER_BRK_OFF,   // Left
 		STEPPER_REV, 150, 200, 400, STEPPER_BRK_OFF ); // Right
 }
 
 void turnAround()
 {
-	//Just turn right twice
-	turnRight();
-	turnRight();
+	//TURN RIGHT (~180-degrees)...
+	STEPPER_move_stwt( STEPPER_BOTH,
+		STEPPER_FWD, 300, 200, 400, STEPPER_BRK_OFF,   // Left
+		STEPPER_REV, 300, 200, 400, STEPPER_BRK_OFF ); // Right
 }
 
 void resumePrev( uint8_t prev_state )
@@ -158,29 +152,32 @@ void resumePrev( uint8_t prev_state )
 	else if(prev_state == BACKWARD)
 		goBackward();
 	else if(prev_state == STOP )
-		stopBot();
+		stop();
 }
 
-void stopBot()
+void stop()
 {
 	STEPPER_stop(STEPPER_BOTH, STEPPER_BRK_OFF);
-	LCD_clear();
-	printf( "Should Stop" );
 }
 
 void makeSandwich()
 {
-    //It really doesn't make you a sandwich.
+	//It really doesn't make you a sandwich.
 }
 
-ISR(USART_RX_vect) 
-{         
-    /* Wait for data to be received */
-    while ( !(UCSR0A  & (1 << RXC0)) );         
-        
-    /* Get and return received data from buffer */
-    rxed = UDR0;         
-    rxflag = 1; 
-} 
+/* USART Functions */
+void USART_Init( unsigned int ubrr)
+{
+	/*Set baud rate */
+    UBRR0H = (ubrr >> 8);
+    UBRR0L = ubrr;
+    
+    UCSR0B = (1 << RXEN0) | (1 << TXEN0) | (1 << RXCIE0);      // Enable receiver and transmitter and interrupt receive
+    UCSR0C = (1 << UCSZ01) | (1 << UCSZ00);    // Set frame: 8data, 1 stp
+}
 
-
+ISR(USART0_RX_vect)
+{
+   cmd = UDR0; // Fetch the received byte value into the variable "ByteReceived"
+   rxflag = 1;
+}
