@@ -101,14 +101,14 @@ OUTPUT_FILE_DEP:= ./makedep.mk
 ./Voice\ Control.o: .././Voice\ Control.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler
-	$(QUOTE)$(AVR_APP_PATH)avr-gcc.exe$(QUOTE) -funsigned-char -funsigned-bitfields -Os -fpack-struct -fshort-enums -Wall -c -std=gnu99  -mmcu=atmega324p   -MD -MP -MF"Voice Control.d" -MQ"$(@:Voice Control.o=Voice Control.d)" -o"$@" "$<"
+	$(QUOTE)$(AVR_APP_PATH)avr-gcc.exe$(QUOTE) -funsigned-char -funsigned-bitfields -I"../CEENbot API/lib-includes"  -Os -fpack-struct -fshort-enums -Wall -c -std=gnu99  -mmcu=atmega324p   -MD -MP -MF"Voice Control.d" -MQ"$(@:Voice Control.o=Voice Control.d)" -o"$@" "$<"
 	@echo Finished building: $<
 
 
 ./%.o: .././%.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler
-	$(QUOTE)$(AVR_APP_PATH)avr-gcc.exe$(QUOTE) -funsigned-char -funsigned-bitfields -Os -fpack-struct -fshort-enums -Wall -c -std=gnu99  -mmcu=atmega324p   -MD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o"$@" "$<"
+	$(QUOTE)$(AVR_APP_PATH)avr-gcc.exe$(QUOTE) -funsigned-char -funsigned-bitfields -I"../CEENbot API/lib-includes"  -Os -fpack-struct -fshort-enums -Wall -c -std=gnu99  -mmcu=atmega324p   -MD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o"$@" "$<"
 	@echo Finished building: $<
 
 
@@ -133,7 +133,7 @@ all: $(OUTPUT_FILE_PATH) $(ADDITIONAL_DEPENDENCIES)
 $(OUTPUT_FILE_PATH): $(OBJS) $(USER_OBJS) $(OUTPUT_FILE_DEP)
 	@echo Building target: $@
 	@echo Invoking: AVR/GNU C/C++ Linker
-	$(QUOTE)$(AVR_APP_PATH)avr-gcc.exe$(QUOTE) -Wl,-L"../../CEENbot API"   -mmcu=atmega324p  -Wl,-Map=$(MAP_FILE_PATH_AS_ARGS) -o$(OUTPUT_FILE_PATH_AS_ARGS) $(OBJS_AS_ARGS) $(USER_OBJS) $(LIBS)
+	$(QUOTE)$(AVR_APP_PATH)avr-gcc.exe$(QUOTE) -Wl,-L"../CEENbot API"   -mmcu=atmega324p  -Wl,-Map=$(MAP_FILE_PATH_AS_ARGS) -o$(OUTPUT_FILE_PATH_AS_ARGS) $(OBJS_AS_ARGS) $(USER_OBJS) $(LIBS)
 	@echo Finished building target: $@
 
 
